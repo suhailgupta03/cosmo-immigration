@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">Contact
-                    <small>Subheading</small>
+                    <small>US</small>
                 </h1>
                 <ol class="breadcrumb">
                     <li><a href="index.php">Home</a>
@@ -21,18 +21,18 @@
             <!-- Map Column -->
             <div class="col-md-8">
                 <!-- Embedded Google Map -->
-                <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
+                <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?hl=en&q=SCO – 546 , 2nd Floor , Sector 70 , MOHALI&ie=UTF8&t=m&z=14&iwloc=B&output=embed"></iframe>
             </div>
             <!-- Contact Details Column -->
             <div class="col-md-4">
                 <h3>Contact Details</h3>
                 <p>
-                    3481 Melrose Place<br>Beverly Hills, CA 90210<br>
+                    SCO – 546 , 2nd Floor , Sector 70<br>Mohali, Punjab<br>
                 </p>
                 <p><i class="fa fa-phone"></i> 
-                    <abbr title="Phone">P</abbr>: (123) 456-7890</p>
+                    <abbr title="Phone">P</abbr>: 090569 33666</p>
                 <p><i class="fa fa-envelope-o"></i> 
-                    <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">name@example.com</a>
+                    <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">info@cosmoimmigration.com</a>
                 </p>
                 <p><i class="fa fa-clock-o"></i> 
                     <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
