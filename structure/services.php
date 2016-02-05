@@ -31,19 +31,32 @@
             <div class="col-lg-12">
                 <h2 class="page-header">Services Panels</h2>
             </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="panel panel-default text-center">
-                    <div class="panel-heading">
-                        <span class="fa-stack fa-5x">
-                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
-                        </span>
-                    </div>
-                    <div class="panel-body">
-                        <h4>Career Counselling</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
-                    </div>
+            <div class="col-md-3 col-sm-6 service-panel">
+                <div class="flip">
+                  <div class="card"> 
+                    <div class="face front"> 
+                        <div class="panel panel-default text-center">
+                            <div class="panel-heading">
+                                <span class="fa-stack fa-5x">
+                                      <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                      <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </div>
+                            <div class="panel-body">
+                                <h4>Career Counselling</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <a href="#" class="btn btn-primary service-link" panel-type='career'>Learn More</a>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="face back"> 
+                        <div class="col-md-3 col-sm-6" style='display:none;'>
+                            <div class="panel panel-default text-center" id='career-services'>
+                                
+                            </div>
+                        </div>
+                    </div> 
+                 </div> 
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
