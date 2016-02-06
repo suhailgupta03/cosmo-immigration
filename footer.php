@@ -8,7 +8,7 @@
                 </div>
             </div>
         </footer>
-        
+        <div class="scrollToTop"><span class="glyphicon glyphicon-arrow-up"></span></div>
         </div>
     <!-- /.container : Opened inside header.php -->
 

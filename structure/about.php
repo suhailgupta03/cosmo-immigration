@@ -4,8 +4,7 @@
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">About
-                    <small>Us</small>
+                <h1 class="page-header">About Us
                 </h1>
                 <ol class="breadcrumb">
                     <li><a href="index.php">Home</a>
@@ -22,7 +21,7 @@
                 <img class="img-responsive" src="http://placehold.it/750x450" alt="">
             </div>
             <div class="col-md-6">
-                <h2>About Cosmo Immigration</h2>
+<!--                 <h2>About Cosmo Immigration</h2> -->
                 <p>COSMO IMMIGRATION takes care for all your international study needs.</p>
                 <p>The core activity lies in assisting students to make the right choice with regard to 
                 	pursuing education in overseas educational institutions. COSMO IMMIGRATION provides 

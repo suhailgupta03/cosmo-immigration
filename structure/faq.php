@@ -19,7 +19,7 @@
         <!-- Content Row -->
         <div class="row">
             <div class="col-lg-12">
-            	<h3>For Canadian International Students</h3>
+            	<h3 class="faq-heading">For Canadian International Students</h3>
                 <div class="panel-group" id="accordion">
                     <div class="panel panel-default">
                         <div class="panel-heading">
@@ -27,7 +27,7 @@
                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">What are the requirements for admission into Canadian universities?</a>
                             </h4>
                         </div>
-                        <div id="collapseOne" class="panel-collapse collapse">
+                        <div id="collapseOne" class="panel-collapse collapse in">
                             <div class="panel-body">
                                 Each university in Canada has its own policy regarding admission requirements. Contact each university directly or from your Consultant for the admission requirements of the program you’re interested in.
                             </div>
@@ -60,7 +60,7 @@
                         </div>
                     </div>
                     <!-- /.panel -->
-                    <h3>For USA International Students</h3>
+                    <h3 class="faq-heading">For USA International Students</h3>
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
@@ -302,7 +302,7 @@
                         </div>
                     </div>
                     <!-- /.panel -->
-                    <h3>For UK International Students</h3>
+                    <h3 class="faq-heading">For UK International Students</h3>
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">

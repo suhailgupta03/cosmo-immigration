@@ -8,7 +8,7 @@
         </ol>
 
         <!-- Wrapper for slides -->
-        <div class="carousel-inner">
+        <div class="carousel-inner">           
             <div class="item active">
                 <div class="fill" style="background-image:url('./images/study-abroad-consultants.png');"></div>
 <!--                 <div class="carousel-caption"> -->
@@ -51,33 +51,42 @@
             <div class="col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-check"></i> Bootstrap v3.2.0</h4>
+                        <h4><i class="fa fa-fw fa-check"></i>Free Initial Consultation</h4>
                     </div>
                     <div class="panel-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                        <a href="#" class="btn btn-default">Learn More</a>
+                        <p>Our free initial consultation provides you an opportunity to initiate the contact for 
+                        	legal services without worrying about potential fee charges.
+                        	The free initial consultation gives you a good opportunity to know your immigration options. Often unknown to clients seeking immigration solutions, there are more than one option available.
+                        </p>
+<!--                         <a href="#" class="btn btn-default">Learn More</a> -->
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-gift"></i> Free &amp; Open Source</h4>
+                        <h4><i class="fa fa-fw fa-check"></i>Apply For Upcoming Intakes</h4>
                     </div>
                     <div class="panel-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                        <a href="#" class="btn btn-default">Learn More</a>
+                        <p>Apply for upcoming intakes in Newzealand, Australia, Canada, USA, UK.  
+                        	We are here to assist you in all your queries related to your study Visas.
+                        	If you have made your mind to go abroad for further education , then its the 
+                        	right time to get connected with us and get an expert advice from our counselors
+                        	and begin with your plans of studying abroad.
+                        </p>
+<!--                         <a href="#" class="btn btn-default">Learn More</a> -->
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-compass"></i> Easy to Use</h4>
+                        <h4><i class="fa fa-fw fa-check"></i>UG & PG Programs</h4>
                     </div>
                     <div class="panel-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                        <a href="#" class="btn btn-default">Learn More</a>
+                        <p>Expert talk about the course duration of undergraduate and postgraduate courses in the USA, UK, Canda, Australia. The general entry requirement for these 
+                           qualification will also be explained by our counsellers.</p>
+<!--                         <a href="#" class="btn btn-default">Learn More</a> -->
                     </div>
                 </div>
             </div>

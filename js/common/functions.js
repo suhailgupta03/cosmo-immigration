@@ -3,7 +3,16 @@
  */
 
 $(function(){
-	setTitle(window.location.pathname);	
+	setTitle(window.location.pathname);
+	bindServiceLinks();
+	$(window).on('scroll',function(){
+		if(document.body.scrollTop > 0){
+			$('.scrollToTop').css('display','block');
+		}
+		else{
+			$('.scrollToTop').css('display','none');
+		}
+	})
 });
 
 /**
@@ -40,6 +49,14 @@ var setTitle = function(location) {
 				title = notFoundTitle;
 				menu.setActiveItem('.more-mi');
 				break;
+			case scholarshipPage:
+				title = scholarshipTitle;
+				menu.setActiveItem('.more-mi');
+				break;
+			case countriesPage:
+				title = countriesTitle;
+				menu.setActiveItem('.more-mi');
+				break;
 			default:
 				title = siteName;
 			break;
@@ -58,3 +75,15 @@ var Menu = function(){};
 Menu.prototype.setActiveItem = function($selectorClass) {
 	$($selectorClass).addClass('active');
 }
+var bindServiceLinks	=	function(){
+	$('.service_link').each(function(){
+		$(this).on('click',function(event){
+			var linkItem	=	$(this).attr('href');
+			$('body').animate({'scrollTop':$(linkItem)[0].offsetTop - 30},750);
+			event.preventDefault();
+		});
+	});
+	$('.scrollToTop').on('click',function(){
+		$('body').animate({'scrollTop':0},500);
+	});
+};
