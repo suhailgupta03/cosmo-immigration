@@ -78,7 +78,10 @@ header.carousel .fill {
 /* Footer Styles */
 
 footer {
-    margin: 50px 0;
+    margin-top:10px;
+    padding: 15px 0;
+    background-color: #004B8F;
+    color: #fff;
 }
 
 /* Responsive Styles */
@@ -128,12 +131,11 @@ h4.media-heading {
     right: 30px;
     display: none;
     border-radius: 100%;
-    color:#777;
-    border: 3px solid #5c5c5c;
+    color: #fff;
+    border: 3px solid #fff;
     padding: 5px 8px 10px 7px;
     cursor: pointer;
-    box-shadow: 5px 5px 10px #aaa;
-    background: #fff;
+    background: #004B8F;
 }
 #accordion .panel {
     border: none;
@@ -163,4 +165,57 @@ h4.media-heading {
     text-decoration: underline;
     color: 00b0ff;
 }
-
+.home-service-item-body {
+    letter-spacing: 1px;
+    padding: 10px 25px;
+    text-align: justify;
+    color: #888;
+}
+.home-service-item {
+    font-size: 24px;
+    color: #00b0ff;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+.home-service {
+    border-bottom: 1px solid rgba(1,1,1,0.05);
+    margin-top: 15px;
+    padding: 10px;
+}
+.service-item-img{
+    width:100%;
+    display: none;
+}
+.home-service .home-service-item-body ~ .col-md-6{
+    background-size: 100%;
+    min-height:250px;
+    background-repeat: no-repeat;
+}
+.home-service:nth-child(1) .home-service-item-body ~ .col-md-6{
+    background-image: url('./../images/1.jpg');
+}
+.home-service:nth-child(2) .home-service-item-body ~ .col-md-6{
+    background-image: url('./../images/banner-guidence.jpg');
+}
+.home-service:nth-child(3) .home-service-item-body ~ .col-md-6{
+    background-image: url('./../images/student-interns11-1024x572.jpg');
+}
+.brand-banner {
+    background-image: url('./../images/cimm-banner.jpg');
+    min-height: 100px;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-color: #004B8F;
+    color: #fff;
+}
+.navbar-custom {
+    background-color: #004B8F;
+    color:#fff;
+}
+.navbar-custom a{
+    color:#fff;
+}
+.navbar-custom .nav>li>a:focus,.navbar-custom .nav>li>a:hover {
+    color: #aaa;
+    background-color: #004B8F;
+}

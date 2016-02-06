@@ -1,15 +1,15 @@
  
  <hr>       
  <!-- Footer -->
-        <footer>
+        <div class="scrollToTop"><span class="glyphicon glyphicon-arrow-up"></span></div>
+        </div>
+        <footer class="container-fluid text-center">
             <div class="row">
                 <div class="col-lg-12">
                     <p>Copyright &copy; Cosmo Immigration 2016</p>
                 </div>
             </div>
         </footer>
-        <div class="scrollToTop"><span class="glyphicon glyphicon-arrow-up"></span></div>
-        </div>
     <!-- /.container : Opened inside header.php -->
 
 	<!-- Include JavaScript files -->

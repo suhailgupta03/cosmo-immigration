@@ -10,19 +10,19 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner">           
             <div class="item active">
-                <div class="fill" style="background-image:url('./images/study-abroad-consultants.png');"></div>
+                <div class="fill" style="background-image:url('./images/migrate-to-canada1.jpg');"></div>
 <!--                 <div class="carousel-caption"> -->
 <!--                     <h2>Caption 1</h2> -->
 <!--                 </div> -->
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('./images/migrate-to-canada1.jpg');"></div>
+                <div class="fill" style="background-image:url('./images/visas-banner-USA.jpg');"></div>
 <!--                 <div class="carousel-caption"> -->
 <!--                     <h2>Caption 2</h2> -->
 <!--                 </div> -->
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('./images/visas-banner-USA.jpg');"></div>
+                <div class="fill" style="background-image:url('./images/sl3.jpg');"></div>
 <!--                 <div class="carousel-caption"> -->
 <!--                     <h2>Caption 3</h2> -->
 <!--                 </div> -->
@@ -43,50 +43,43 @@
 
         <!-- Marketing Icons Section -->
         <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">
+            <div class="col-lg-12 brand-banner text-center hide">
+                <h1>
                     Welcome to Cosmo Immigration
                 </h1>
             </div>
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-check"></i>Free Initial Consultation</h4>
-                    </div>
-                    <div class="panel-body">
+            <div class="row">
+                <div class="col-md-12 home-service">
+                    <div class="home-service-item-body col-md-6">
+                        <h4 class="home-service-item text-center">Free Initial Consultation</h4>
                         <p>Our free initial consultation provides you an opportunity to initiate the contact for 
-                        	legal services without worrying about potential fee charges.
-                        	The free initial consultation gives you a good opportunity to know your immigration options. Often unknown to clients seeking immigration solutions, there are more than one option available.
+                            legal services without worrying about potential fee charges.
+                            The free initial consultation gives you a good opportunity to know your immigration options. Often unknown to clients seeking immigration solutions, there are more than one option available.
                         </p>
-<!--                         <a href="#" class="btn btn-default">Learn More</a> -->
+                    </div>
+                    <div class="col-md-6 hidden-sm hidden-xs">
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-check"></i>Apply For Upcoming Intakes</h4>
-                    </div>
-                    <div class="panel-body">
+                <div class="col-md-12 home-service">
+                    <div class="home-service-item-body col-md-6 pull-right col-sm-pull-left">
+                        <h4 class="home-service-item text-center">Apply For Upcoming Intakes</h4>
                         <p>Apply for upcoming intakes in Newzealand, Australia, Canada, USA, UK.  
-                        	We are here to assist you in all your queries related to your study Visas.
-                        	If you have made your mind to go abroad for further education , then its the 
-                        	right time to get connected with us and get an expert advice from our counselors
-                        	and begin with your plans of studying abroad.
+                            We are here to assist you in all your queries related to your study Visas.
+                            If you have made your mind to go abroad for further education , then its the 
+                            right time to get connected with us and get an expert advice from our counselors
+                            and begin with your plans of studying abroad.
                         </p>
-<!--                         <a href="#" class="btn btn-default">Learn More</a> -->
+                    </div>
+                    <div class="col-md-6 hidden-sm  hidden-xs">
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-check"></i>UG & PG Programs</h4>
-                    </div>
-                    <div class="panel-body">
+                <div class="col-md-12 home-service">
+                    <div class="home-service-item-body col-md-6">
+                        <h4 class="home-service-item text-center">UG & PG Programs</h4>
                         <p>Expert talk about the course duration of undergraduate and postgraduate courses in the USA, UK, Canda, Australia. The general entry requirement for these 
                            qualification will also be explained by our counsellers.</p>
-<!--                         <a href="#" class="btn btn-default">Learn More</a> -->
+                    </div>
+                    <div class="col-md-6 hidden-sm  hidden-xs">
                     </div>
                 </div>
             </div>
@@ -158,7 +151,7 @@
         <hr>
 
         <!-- Call to Action Section -->
-        <div class="well">
+        <div class="well hide">
             <div class="row">
                 <div class="col-md-8">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
