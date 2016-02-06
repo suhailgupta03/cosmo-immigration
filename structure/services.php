@@ -163,7 +163,7 @@
                     <div class="pull-left">
                         <span class="fa-stack">
                               <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
+                              <i class="fa fa-book fa-stack-1x fa-inverse"></i>
                         </span> 
                     </div>
                     <div class="media-body">
@@ -175,7 +175,7 @@
                     <div class="pull-left">
                         <span class="fa-stack">
                               <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-car fa-stack-1x fa-inverse"></i>
+                              <i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
                         </span> 
                     </div>
                     <div class="media-body">
@@ -189,7 +189,7 @@
                     <div class="pull-left">
                         <span class="fa-stack">
                               <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-database fa-stack-1x fa-inverse"></i>
+                              <i class="fa fa-bullseye fa-stack-1x fa-inverse"></i>
                         </span> 
                     </div>
                     <div class="media-body">
