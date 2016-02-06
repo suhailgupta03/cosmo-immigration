@@ -19,6 +19,7 @@
     <script src="js/contact_me.js"></script>
     <script src="js/constant.js"></script>
     <script src="js/common/functions.js"></script>
+    <script src="js/common/functions.js"></script>
     <script src="js/google_analytics.js"></script>
     <!-- Script to Activate the Carousel -->
     <script>

@@ -75,6 +75,7 @@ var Menu = function(){};
 Menu.prototype.setActiveItem = function($selectorClass) {
 	$($selectorClass).addClass('active');
 }
+
 var bindServiceLinks	=	function(){
 	$('.service_link').each(function(){
 		$(this).on('click',function(event){
