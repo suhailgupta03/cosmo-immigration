@@ -80,7 +80,7 @@ header.carousel .fill {
 footer {
     margin-top:10px;
     padding: 15px 0;
-    background-color: #004B8F;
+    background-color: rgba(1,1,1,0.85);
     color: #fff;
 }
 
@@ -201,15 +201,12 @@ h4.media-heading {
     background-image: url('./../images/student-interns11-1024x572.jpg');
 }
 .brand-banner {
-    background-image: url('./../images/cimm-banner.jpg');
-    min-height: 100px;
-    background-size: 100px;
-    background-repeat: no-repeat;
-    background-color: #004B8F;
-    color: #fff;
+    color: #004B8F;
+    margin-top: 15px;
+    text-decoration: underline;
 }
 .navbar-custom {
-    background-color: #004B8F;
+    background-color: rgba(1,1,1,0.85);
     color:#fff;
 }
 .navbar-custom a{
@@ -217,14 +214,35 @@ h4.media-heading {
 }
 .navbar-custom .nav>li>a:focus,.navbar-custom .nav>li>a:hover {
     color: #aaa;
-    background-color: #004B8F;
+    background-color: transparent;
 }
 
 .country-heading{
 	color: #00b0ff;	
 }
-
-
+.jssocials-share-link {
+    padding: 0.8em 1.5em !important;
+    border-radius: 15px;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    color: #fff;
+    text-align: left;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: underline; 
+    background-color: transparent;
+    color: #ccc;
+    cursor: pointer;
+}
+div#share {
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
 
 
 

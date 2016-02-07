@@ -39,15 +39,19 @@
     </header>
 
     <!-- Page Content -->
-    <div class="container"> <!-- Tag closed in footer.php -->
-
-        <!-- Marketing Icons Section -->
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-12 brand-banner text-center hide">
+            <div class="col-lg-12 brand-banner text-center">
                 <h1>
                     Welcome to Cosmo Immigration
                 </h1>
             </div>
+        </div>
+    </div>
+    <div class="container"> <!-- Tag closed in footer.php -->
+
+        <!-- Marketing Icons Section -->
+        <div class="row">
             <div class="row">
                 <div class="col-md-12 home-service">
                     <div class="home-service-item-body col-md-6">
