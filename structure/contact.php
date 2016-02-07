@@ -31,7 +31,7 @@
                 <p><i class="fa fa-phone"></i> 
                     <abbr title="Phone">P</abbr>: 090569 33666</p>
                 <p><i class="fa fa-envelope-o"></i> 
-                    <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">info@cosmoimmigration.com</a>
+                    <abbr title="Email">E</abbr>: <a href="mailto:info@cosmoimmigration.com">info@cosmoimmigration.com</a>
                 </p>
                 <p><i class="fa fa-clock-o"></i> 
                     <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
