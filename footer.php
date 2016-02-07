@@ -3,7 +3,9 @@
  <!-- Footer -->
         <div class="scrollToTop"><span class="glyphicon glyphicon-arrow-up"></span></div>
         </div>
+        
         <footer class="container-fluid text-center">
+        <div id='share' class='text-center'></div>
         	<div class="row">
     <div class="col-lg-12">
       <div class="col-md-3">
@@ -66,12 +68,15 @@
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
     <script src="js/constant.js"></script>
-    <script src="js/common/functions.js"></script>
+    <script src="js/jssocials.min.js"></script>
     <script src="js/common/functions.js"></script>
     <script src="js/google_analytics.js"></script>
     <!-- Script to Activate the Carousel -->
     <script>
 	    $('.carousel').carousel({
 	        interval: 5000 //changes the speed
-	    })
+	    });
+	    $("#share").jsSocials({
+            shares: ["email", "twitter", "facebook", "googleplus", "linkedin", "pinterest"]
+        });
     </script>
