@@ -77,6 +77,8 @@
 	        interval: 5000 //changes the speed
 	    });
 	    $("#share").jsSocials({
+		    url : "http://www.cosmoimmigration.com",
+		    text : "Your Future. Our Advice #CosmoImmigration",
             shares: ["email", "twitter", "facebook", "googleplus", "linkedin", "pinterest"]
         });
     </script>

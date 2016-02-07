@@ -10,6 +10,8 @@
 
     <title>Cosmo Immigration</title>
 
+	<link rel='shortcut icon' type='image/vnd.microsoft.icon' href='./favicon.ico' />
+	<link rel='icon' type='image/vnd.microsoft.icon' href='./favicon.ico' />
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/modern-business.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
