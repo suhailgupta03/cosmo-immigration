@@ -97,9 +97,6 @@
                             <li>
                                 <a href="faq.php">FAQ</a>
                             </li>                            
-                            <li>
-                                <a href="pricing.html">Pricing Table</a>
-                            </li>
                         </ul>
                     </li>
                 </ul>
