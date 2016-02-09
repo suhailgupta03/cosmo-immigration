@@ -1,7 +1,10 @@
-/**
- * @author suhail
- */
 
+/**
+ * Currency Converter Library
+ * @author suhail
+ * @date Feburary 9,2016
+ * @version 1.0.0
+ */
 var currencyMap = {};
 currencyMap['United Arab Emirates Dirham']='AED';
 currencyMap['Argentine Peso']='ARS';
@@ -60,17 +63,17 @@ $.each(currencyMap,function(key,value){
 });
 
 $('#currency-converter-button').on('click',function(event){	
-	var converterEndPoint = "https://www.google.com/finance/converter";
 	var from = currencyMap[$('#currency-converter-from').val().split(" (")[0]];	
 	var to = currencyMap[$('#currency-converter-to').val().split(" (")[0]];
 	var amount = $('#currency-converter-amount').val();
-	converterEndPoint += "?a="+amount+"&from="+from+"&to="+to;
 	$.ajax({
 		method: "GET",
-		url: converterEndPoint,
+		url: "./http/CimmClient.php",
 		dataType: 'html',
-		beforeSend: function() {
-			
+		data:{
+			a: amount,
+			from: from,
+			to: to
 		},
 		statusCode:{
 			404: function() {
