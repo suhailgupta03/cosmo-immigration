@@ -265,5 +265,23 @@ div#share {
 	padding-top: 5px;
 }
 
+.modal-header{
+	background: rgba(222,222,222,1);
+	background: -moz-linear-gradient(left, rgba(222,222,222,1) 0%, rgba(222,222,222,1) 1%, rgba(212,212,212,1) 13%, rgba(230,230,230,1) 62%, rgba(255,255,255,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(222,222,222,1)), color-stop(1%, rgba(222,222,222,1)), color-stop(13%, rgba(212,212,212,1)), color-stop(62%, rgba(230,230,230,1)), color-stop(100%, rgba(255,255,255,1)));
+	background: -webkit-linear-gradient(left, rgba(222,222,222,1) 0%, rgba(222,222,222,1) 1%, rgba(212,212,212,1) 13%, rgba(230,230,230,1) 62%, rgba(255,255,255,1) 100%);
+	background: -o-linear-gradient(left, rgba(222,222,222,1) 0%, rgba(222,222,222,1) 1%, rgba(212,212,212,1) 13%, rgba(230,230,230,1) 62%, rgba(255,255,255,1) 100%);
+	background: -ms-linear-gradient(left, rgba(222,222,222,1) 0%, rgba(222,222,222,1) 1%, rgba(212,212,212,1) 13%, rgba(230,230,230,1) 62%, rgba(255,255,255,1) 100%);
+	background: linear-gradient(to right, rgba(222,222,222,1) 0%, rgba(222,222,222,1) 1%, rgba(212,212,212,1) 13%, rgba(230,230,230,1) 62%, rgba(255,255,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dedede', endColorstr='#ffffff', GradientType=1 );
+}
+
+.cimm-overlay {
+	height: 100%;
+	width: 100%;
+	opacity: 0.7;
+	position: absolute;
+	z-index: 1000;
+}
 
 

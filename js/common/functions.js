@@ -2,6 +2,7 @@
  * @author Suhail
  */
 
+
 $(function(){
 	setTitle(window.location.pathname);
 	bindServiceLinks();
