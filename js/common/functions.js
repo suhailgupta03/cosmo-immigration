@@ -77,6 +77,7 @@ Menu.prototype.setActiveItem = function($selectorClass) {
 }
 
 var bindServiceLinks	=	function(){
+	
 	$('.service_link').each(function(){
 		$(this).on('click',function(event){
 			var linkItem	=	$(this).attr('href');
@@ -84,7 +85,8 @@ var bindServiceLinks	=	function(){
 			event.preventDefault();
 		});
 	});
+	
 	$('.scrollToTop').on('click',function(){
-		$('body').animate({'scrollTop':0},500);
+		$('body').animate({'scrollTop':0},750);
 	});
 };

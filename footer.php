@@ -1,64 +1,61 @@
  
  <hr>       
  <!-- Footer -->
-        <div class="scrollToTop"><span class="glyphicon glyphicon-arrow-up"></span></div>
+        <div class="scrollToTop">
+        	<span class="glyphicon glyphicon-arrow-up"></span>
+        </div>
         </div>
         
         <footer class="container-fluid text-center">
         <div id='share' class='text-center'></div>
-        	<div class="row">
-    <div class="col-lg-12">
-      <div class="col-md-3">
-        <ul class="nav nav-pills nav-stacked">
-          <li><a href="#">About us</a></li>
-          <li><a href="#">Photo Gallery</a></li>
-          <li><a href="#">Video Gallery</a></li>
-          <li><a href="#">Jobs @ CIMM</a></li>
-        </ul>
-      </div>
-      <div class="col-md-3">
-        <ul class="nav nav-pills nav-stacked">
-          <li><a href="#">Study In Canda</a></li>
-          <li><a href="#">Study In USA</a></li>
-          <li><a href="#">Study In Australia</a></li>
-          <li><a href="#">Study In UK</a></li>
-          <li><a href="#">Study In New Zealand</a></li>
-        </ul>
-      </div>
-      <div class="col-md-3">
-        <ul class="nav nav-pills nav-stacked">
-          <li><a href="#">Write a Query</a></li>
-          <li><a href="#">Register for Newsletters</a></li>   
-          <li><a href="#">Currency Converter</a></li> 
-          <li><a href="#">UG Studies</a></li>    
-          <li><a href="#">FAQ's</a></li>                             
-        </ul>
-      </div>
-      <div class="col-md-3">
-        <ul class="nav nav-pills nav-stacked">
-          <li><a href="#">University Selection</a></li>
-          <li><a href="#">Career Counselling</a></li>
-          <li><a href="#">Scholarship Guidance</a></li>
-          <li><a href="#">Visa Assistance</a></li>
-        </ul>
-      </div>  
-    </div>
-  </div>
-  <hr>
-    <div class="row">
-        <div class="col-lg-12">
-            <ul class="nav nav-justified">
-                <li><a href="/">© 2016 Cosmo Immigration</a></li>
-                <li><a href="#">Terms of Service</a></li>
-                <li><a href="#">Privacy</a></li>
-            </ul>
-        </div>
-    </div>
-<!--             <div class="row"> -->
-<!--                 <div class="col-lg-12"> -->
-<!--                     <p>Copyright &copy; Cosmo Immigration 2016</p> -->
-<!--                 </div> -->
-<!--             </div> -->
+        <div class="row">
+		    <div class="col-md-12">
+		      <div class="col-md-3 col-sm-3 col-xs-3">
+		        <ul class="nav nav-pills nav-stacked">
+		          <li><a href="#">About us</a></li>
+		          <li><a href="#">Photo Gallery</a></li>
+		          <li><a href="#">Video Gallery</a></li>
+		          <li><a href="#">Jobs @ CIMM</a></li>
+		        </ul>
+		      </div>
+		      <div class="col-md-3 col-sm-3 col-xs-3">
+		        <ul class="nav nav-pills nav-stacked">
+		          <li><a href="#">Study In Canda</a></li>
+		          <li><a href="#">Study In USA</a></li>
+		          <li><a href="#">Study In Australia</a></li>
+		          <li><a href="#">Study In UK</a></li>
+		          <li><a href="#">Study In New Zealand</a></li>
+		        </ul>
+		      </div>
+		      <div class="col-md-3 col-sm-3 col-xs-3">
+		        <ul class="nav nav-pills nav-stacked">
+		          <li><a href="#">Write a Query</a></li>
+		          <li><a href="#">Register for Newsletters</a></li>   
+		          <li><a href="#">Currency Converter</a></li> 
+		          <li><a href="#">UG Studies</a></li>    
+		          <li><a href="#">FAQ's</a></li>                             
+		        </ul>
+		      </div>
+		      <div class="col-md-3 col-sm-3 col-xs-3">
+		        <ul class="nav nav-pills nav-stacked">
+		          <li><a href="#">University Selection</a></li>
+		          <li><a href="#">Career Counselling</a></li>
+		          <li><a href="#">Scholarship Guidance</a></li>
+		          <li><a href="#">Visa Assistance</a></li>
+		        </ul>
+		      </div>  
+		    </div>
+  		</div>
+ 		 <hr>
+	    <div class="row">
+	        <div class="col-lg-12">
+	            <ul class="nav nav-justified">
+	                <li><a href="/">© 2016 Cosmo Immigration</a></li>
+	                <li><a href="#">Terms of Service</a></li>
+	                <li><a href="#">Privacy</a></li>
+	            </ul>
+	        </div>
+	    </div>
         </footer>
     <!-- /.container : Opened inside header.php -->
 

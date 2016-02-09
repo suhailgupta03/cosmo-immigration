@@ -24,16 +24,16 @@
             </div>
             <!-- Contact Details Column -->
             <div class="col-md-4">
-                <h3>Contact Details</h3>
-                <p>
+                <h3 id="contact-heading">Contact Details</h3>
+                <p class='contact-content'>
                     SCO – 546 , 2nd Floor , Sector 70<br>Mohali, Punjab<br>
                 </p>
-                <p><i class="fa fa-phone"></i> 
+                <p class='contact-content'><i class="fa fa-phone"></i> 
                     <abbr title="Phone">P</abbr>: 090569 33666</p>
-                <p><i class="fa fa-envelope-o"></i> 
+                <p class='contact-content'><i class="fa fa-envelope-o"></i> 
                     <abbr title="Email">E</abbr>: <a href="mailto:info@cosmoimmigration.com">info@cosmoimmigration.com</a>
                 </p>
-                <p><i class="fa fa-clock-o"></i> 
+                <p class='contact-content'><i class="fa fa-clock-o"></i> 
                     <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
                 <ul class="list-unstyled list-inline list-social-icons">
                     <li>

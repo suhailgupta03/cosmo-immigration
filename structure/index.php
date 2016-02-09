@@ -10,19 +10,19 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner">           
             <div class="item active">
-                <div class="fill img-responsive" style="background-image:url('./images/migrate-to-canada1.jpg');"></div>
+                <div class="fill" style="background-image:url('./images/migrate-to-canada1.jpg');"></div>
 <!--                 <div class="carousel-caption"> -->
 <!--                     <h2>Caption 1</h2> -->
 <!--                 </div> -->
             </div>
             <div class="item">
-                <div class="fill img-responsive" style="background-image:url('./images/visas-banner-USA.jpg');"></div>
+                <div class="fill" style="background-image:url('./images/visas-banner-USA.jpg');"></div>
 <!--                 <div class="carousel-caption"> -->
 <!--                     <h2>Caption 2</h2> -->
 <!--                 </div> -->
             </div>
             <div class="item">
-                <div class="fill img-responsive" style="background-image:url('./images/sl3.jpg');"></div>
+                <div class="fill" style="background-image:url('./images/sl3.jpg');"></div>
 <!--                 <div class="carousel-caption"> -->
 <!--                     <h2>Caption 3</h2> -->
 <!--                 </div> -->

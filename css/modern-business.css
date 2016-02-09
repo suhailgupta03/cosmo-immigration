@@ -117,6 +117,15 @@ footer {
 	color:#00b0ff;
 	text-align:center;
 }
+
+#contact-heading {
+	color:#00b0ff;
+}
+
+.contact-content{
+	color: #888;
+}
+
 h4.media-heading {
     padding-top: 5px;
 }
@@ -244,6 +253,17 @@ div#share {
     padding-bottom: 10px;
 }
 
+.about-content {
+	color: #888;
+}
+
+.well {
+	color: #888;
+}
+
+.cimm-navbar {
+	padding-top: 5px;
+}
 
 
 

@@ -18,12 +18,12 @@
         <!-- Intro Content -->
         <div class="row">
             <div class="col-md-6">
-                <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                <img class="img-responsive img-thumbnail" src="./images/700x450px.jpg" alt="cosmo immigration slogan">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 about-content">
 <!--                 <h2>About Cosmo Immigration</h2> -->
                 <p>COSMO IMMIGRATION takes care for all your international study needs.</p>
-                <p>The core activity lies in assisting students to make the right choice with regard to 
+                <p>Our core activity lies in assisting students to make the right choice with regard to 
                 	pursuing education in overseas educational institutions. COSMO IMMIGRATION provides 
                 	information regarding higher education in various countries such as UK, USA, Canada,
                     Australia, New Zealand, Singapore, Ireland, Switzerland, France, Malaysia, and Dubai. 
