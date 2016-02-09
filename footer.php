@@ -12,28 +12,29 @@
 		    <div class="col-md-12">
 		      <div class="col-md-3 col-sm-3 col-xs-3">
 		        <ul class="nav nav-pills nav-stacked">
-		          <li><a href="#">About us</a></li>
+		          <li><a href="./about-us.php">About us</a></li>
 		          <li><a href="#">Photo Gallery</a></li>
 		          <li><a href="#">Video Gallery</a></li>
 		          <li><a href="#">Jobs @ CIMM</a></li>
+		          <li><a href="#">Sitemap</a></li>
 		        </ul>
 		      </div>
 		      <div class="col-md-3 col-sm-3 col-xs-3">
 		        <ul class="nav nav-pills nav-stacked">
-		          <li><a href="#">Study In Canda</a></li>
-		          <li><a href="#">Study In USA</a></li>
-		          <li><a href="#">Study In Australia</a></li>
-		          <li><a href="#">Study In UK</a></li>
-		          <li><a href="#">Study In New Zealand</a></li>
+		          <li><a href="http://www.topuniversities.com/where-to-study/north-america/canada/top-universities-canada-201516">Study In Canda</a></li>
+		          <li><a href="http://www.topuniversities.com/where-to-study/north-america/united-states/guide">Study In USA</a></li>
+		          <li><a href="http://www.topuniversities.com/where-to-study/oceania/australia/top-universities-australia-201516">Study In Australia</a></li>
+		          <li><a href="http://www.thecompleteuniversityguide.co.uk/league-tables/rankings">Study In UK</a></li>
+		          <li><a href="http://www.topuniversities.com/where-to-study/oceania/new-zealand/guide">Study In New Zealand</a></li>
 		        </ul>
 		      </div>
 		      <div class="col-md-3 col-sm-3 col-xs-3">
 		        <ul class="nav nav-pills nav-stacked">
 		          <li><a href="#">Write a Query</a></li>
 		          <li><a href="#">Register for Newsletters</a></li>   
-		          <li><a href="#">Currency Converter</a></li> 
+		          <li><a href="#" data-toggle="modal" data-target=".currency-converter-modal">Currency Converter</a></li> 
 		          <li><a href="#">UG Studies</a></li>    
-		          <li><a href="#">FAQ's</a></li>                             
+		          <li><a href="./faq.php">FAQ's</a></li>                             
 		        </ul>
 		      </div>
 		      <div class="col-md-3 col-sm-3 col-xs-3">

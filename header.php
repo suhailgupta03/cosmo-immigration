@@ -108,3 +108,7 @@
         </div>
         <!-- /.container -->
     </nav>
+    
+    <?php 
+    	require_once './structure/currency-converter.php';
+    ?>
