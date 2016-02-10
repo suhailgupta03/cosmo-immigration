@@ -62,13 +62,32 @@ $.each(currencyMap,function(key,value){
 	$('.currency-converter-sb').append('<option>' + key + ' (' + value + ') ' + '</option>');
 });
 
+// $('#currency-converter-button').on('click',function(event){	
+// 	var from = currencyMap[$('#currency-converter-from').val().split(" (")[0]];	
+// 	var to = currencyMap[$('#currency-converter-to').val().split(" (")[0]];
+// 	var amount = $('#currency-converter-amount').val();
+// 	var xhr = new XMLHttpRequest();
+// 	var url = "https://www.google.com/finance/converter?a="+amount+'&from='+from+'&to='+to;
+// 	if(xhr) {
+// 		xhr.open('GET', url, true);
+// 		xhr.onload = function() {
+// 			var response = xhr.responseText;
+// 			var result = $(response).find('#currency_converter_result .bld').html();
+// 			$('.currency-converter-result').empty();
+// 			result = amount + ' ' + from + ' = ' + result;
+// 			$('.currency-converter-result').addClass('bg-info').append('<span>' + result + '</span>');
+// 		};
+// 		xhr.send();
+// 	}
+// });
+
 $('#currency-converter-button').on('click',function(event){	
 	var from = currencyMap[$('#currency-converter-from').val().split(" (")[0]];	
 	var to = currencyMap[$('#currency-converter-to').val().split(" (")[0]];
 	var amount = $('#currency-converter-amount').val();
 	$.ajax({
 		method: "GET",
-		url: "./http/CimmClient.php",
+		url: "./bin/http/CimmClient.php",
 		dataType: 'html',
 		data:{
 			a: amount,
@@ -88,12 +107,13 @@ $('#currency-converter-button').on('click',function(event){
 		$('.currency-converter-result').addClass('bg-info').append('<span>' + result + '</span>');
 	})
 	.fail(function(jqXHR, textStatus, errorThrown){
-		
+
 	})
 	.always(function(jqXHR, textStatus, errorThrown){
 		
 	});	
 });
+
 
 
 

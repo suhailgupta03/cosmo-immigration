@@ -3,7 +3,7 @@
 /**
  * CIMM HTTP Client Class
  */
-require_once 'autoloader.php';
+require_once './autoloader.php';
 
 use GuzzleHttp\Client;
 
