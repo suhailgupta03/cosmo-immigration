@@ -276,12 +276,36 @@ div#share {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dedede', endColorstr='#ffffff', GradientType=1 );
 }
 
-.cimm-overlay {
-	height: 100%;
-	width: 100%;
-	opacity: 0.7;
-	position: absolute;
-	z-index: 1000;
+.modal-header {
+	border-radius:4px;
 }
 
+.panel-primary {
+    border-color: #00b0ff;
+    -webkit-box-shadow: 1px 1px 8px 0px rgba(105,107,105,1);
+	-moz-box-shadow: 1px 1px 8px 0px rgba(105,107,105,1);
+	box-shadow: 1px 1px 8px 0px rgba(105,107,105,1);
+}
 
+.panel-heading {
+	background-color: #00b0ff !important;
+    border-color: #00b0ff !important;
+}
+
+.panel-primary>.panel-heading {
+	color: rgb(255, 252, 44);
+}
+
+.panel-body {
+	color: #888;
+	letter-spacing: 1px;
+	text-align: justify;
+}
+
+.panel-section {
+	margin-top: 20px;
+}
+
+.panel-title {
+	font-weight:900;
+}

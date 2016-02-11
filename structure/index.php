@@ -11,21 +11,12 @@
 -        <div class="carousel-inner">           
             <div class="item active">
                 <div class="fill" style="background-image:url('./images/migrate-to-canada1.jpg');"></div>
-<!--                 <div class="carousel-caption"> -->
-<!--                     <h2>Caption 1</h2> -->
-<!--                 </div> -->
             </div>
             <div class="item">
                 <div class="fill" style="background-image:url('./images/visas-banner-USA.jpg');"></div>
-<!--                 <div class="carousel-caption"> -->
-<!--                     <h2>Caption 2</h2> -->
-<!--                 </div> -->
             </div>
             <div class="item">
                 <div class="fill" style="background-image:url('./images/sl3.jpg');"></div>
-<!--                 <div class="carousel-caption"> -->
-<!--                     <h2>Caption 3</h2> -->
-<!--                 </div> -->
             </div>
           </div>
 
@@ -89,6 +80,54 @@
             </div>
         </div>
         <!-- /.row -->
+        
+        <!-- Panels -->
+		<div class="row panel-section">
+			<div class="col-md-4">			
+				<div class="panel panel-primary">
+					  <div class="panel-heading">
+					    <h3 class="panel-title text-center">Important Advice</h3>
+					  </div>
+					  <div class="panel-body">
+					    <p><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>&nbsp;Do not violate any immigration visa provisions or laws.</p>
+					    <p><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>&nbsp;Keep copies and stay current on the status of your application.</p>
+					    <p><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>&nbsp;Conduct research from reliable sources.</p>
+					    <p><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>&nbsp;Arrive at university by the date given as the Course start date and certainly by the latest arrival date.</p>
+					    <p><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>&nbsp;Take medical insurance cover during your study period from your university. It is the cheapest and most convenient method.</p>
+					     <p><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>&nbsp;Find mentorship programs targeted towards new students.</p>
+					    <p><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>&nbsp;Don’t sit back! Seek out and recognize with confidence your own path.</p>
+					    
+					  </div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel panel-primary">
+					  <div class="panel-heading">
+					    <h3 class="panel-title text-center">Examination</h3>
+					  </div>
+					  <div class="panel-body">
+					   <p>IELTS is an international standardised test of English language proficiency for non-native English language speakers.</p>
+					   <p>It is accepted by most Australian, British, Canadian and New Zealand academic institutions, by over 3,000 academic institutions in the United States, and by various professional organisations across the world.
+					   Test takers receive a score for each test component – Listening, Reading, Writing and Speaking. The individual scores are then averaged and rounded to produce an Overall Band Score.</p>
+					   <p>Prepare for IELTS with Cosmo Immigration. We will guide through the IELTS test to get the score you need!</p>
+					   <a class='btn btn-primary btn-sm' href='#'>Read More&nbsp;<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
+					  </div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel panel-primary">
+					  <div class="panel-heading">
+					    <h3 class="panel-title text-center">Company Profile</h3>
+					  </div>
+					  <div class="panel-body">
+					    <p>Cosmo Immigration has a wide portfolio of reputed international institutions & works closely with several organizations, high commissions & education bodies. It India's Leading Overseas Education Consultancy & has helped thousands of students achieve their dreams.</p>
+						<p>Our counsellors have travelled abroad & have been trained by international experts to guide students professionally in selecting the right course at the ideal university.</p>
+						<p>We offer students a choice of thousands of courses at various leading educational institutions in Australia, Canada, New Zealand, United Kingdom and United States of America. </p>
+						<a class='btn btn-primary btn-sm' href='./about-us.php'>Read More&nbsp;<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
+					  </div>
+				</div>
+			</div>
+		</div>        
 
         <!-- Portfolio Section -->
 <!--         <div class="row"> -->

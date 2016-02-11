@@ -1,9 +1,10 @@
 <!-- Modal -->
-<div class="modal fade currency-converter-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal fade currency-converter-modal" tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="modal-label">
   <div class="modal-dialog modal-sm" role="document">
     <div class="modal-content">
     
       <div class="modal-header">
+      	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title" id="modal-label">Currency Converter</h4>
       </div>
       
@@ -34,8 +35,8 @@
       </div>
       
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary" id="currency-converter-button">Convert</button>
+        <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" id="currency-converter-button" data-loading-text="Converting...">Convert</button>
       </div>
       
     </div>
