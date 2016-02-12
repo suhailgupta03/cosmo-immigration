@@ -306,3 +306,15 @@ div#share {
 	margin-top: 20px;
 }
 
+.footer-links {
+	color: #fff;
+    padding-right: 15px;
+}
+
+.footer-links:hover {
+	color: #ccc;
+}
+
+.bottom-content{
+	display:inline-block;
+}
