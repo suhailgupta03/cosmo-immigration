@@ -8,7 +8,7 @@
        </ol>
 
         <!-- Wrapper for slides -->
--        <div class="carousel-inner">           
+        <div class="carousel-inner">           
             <div class="item active">
                 <div class="fill" style="background-image:url('./images/migrate-to-canada1.jpg');"></div>
             </div>
