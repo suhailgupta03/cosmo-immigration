@@ -288,7 +288,7 @@ div#share {
 	box-shadow: 1px 1px 8px 0px rgba(105,107,105,1);
 }
 
-.panel-heading {
+.panel-section .panel-heading {
 	background-color: #00b0ff !important;
     border-color: #00b0ff !important;
 }
@@ -395,8 +395,8 @@ div#share {
 
 @media (max-width: 767px){
 	 .call-us-alert{
-	 	width: 50%;
-	 	left: -21.8%;
+	 	width: 52%;
+	 	left: -21.7%;
 	 }
 	 .call-us-cont {
 		display: inline-block;

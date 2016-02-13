@@ -26,10 +26,10 @@
             <div class="col-md-4">
                 <h3 id="contact-heading">Contact Details</h3>
                 <p class='contact-content'>
-                    SCO – 546 , 2nd Floor , Sector 70<br>Mohali, Punjab<br>
+                    SCO – 546 , 2nd Floor , Sector 70<br>Mohali, Punjab (India)<br>
                 </p>
                 <p class='contact-content'><i class="fa fa-phone"></i> 
-                    <abbr title="Phone">P</abbr>: 090569 33666</p>
+                    <abbr title="Phone">P</abbr>: +91-90569 33666</p>
                 <p class='contact-content'><i class="fa fa-envelope-o"></i> 
                     <abbr title="Email">E</abbr>: <a href="mailto:info@cosmoimmigration.com">info@cosmoimmigration.com</a>
                 </p>
