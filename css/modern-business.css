@@ -224,6 +224,7 @@ h4.media-heading {
 .navbar-custom .nav>li>a:focus,.navbar-custom .nav>li>a:hover {
     color: #aaa;
     background-color: transparent;
+    text-decoration: none;
 }
 
 .country-heading{
@@ -317,4 +318,87 @@ div#share {
 
 .bottom-content{
 	display:inline-block;
+}
+
+.call-us-alert {
+	background-color: #FFB100;
+    border-radius: 4px;
+    height: 31px;
+	width: 24%;
+    top: 50%;
+    /*margin-left:-107px;*/
+    left: -10.8%;
+    position: fixed;
+    z-index: 10;
+	-webkit-transform: rotate(-90deg);   
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.75);
+	box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.75);
+}
+
+#call-us-alert-details {
+	color: white;
+}
+
+#call-us-alert-glyph > a > span.glyphicon.glyphicon-envelope{
+	-webkit-transform: rotate(90deg);   
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+#call-us-alert-glyph > .alert-link{
+	color: #905E28;
+}
+
+.call-us-cont{
+	padding-right: 1px;
+    padding-top: 6px;
+}
+
+#call-us-alert-details{
+	padding-left: 1px;
+}
+
+#call-us-alert-glyph{
+	padding-left: 5px;
+}
+
+#call-us-alert-details > span {
+	letter-spacing: 0.3px;
+}
+
+@media (min-width: 829px) and (max-width: 976px) {
+	.call-us-alert  {
+ 	   width: 29%;
+ 	   left: -12.9%;
+	}	
+}
+
+@media (min-width: 768px) and (max-width: 831px) {
+	.call-us-alert  {
+ 	   width: 32%;
+ 	   left: -14.1%;
+	}
+	.call-us-cont {
+		display: inline-block;
+	}
+	#call-us-alert-glyph {
+ 	   padding-left: 11px;
+	}	
+}
+
+@media (max-width: 767px){
+	 .call-us-alert{
+	 	width: 50%;
+	 	left: -21.8%;
+	 }
+	 .call-us-cont {
+		display: inline-block;
+	}
 }

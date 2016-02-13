@@ -54,7 +54,7 @@
 		        	<a href="#" class='footer-links'>Terms of Service</a>
 		        	<a href="#" class='footer-links'>Privacy Policy</a>
 		        	<a href="#" class='hidden-xs footer-links'>Disclaimer</a>
-		        	<a href="#" class='hidden-xs footer-links'>Sitemap</a>
+		        	<a href="./sitemap.xml" class='hidden-xs footer-links'>Sitemap</a>
 		        </div>
 		    </div>
         </footer>

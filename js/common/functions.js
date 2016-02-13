@@ -6,6 +6,7 @@
 $(function(){
 	setTitle(window.location.pathname);
 	bindServiceLinks();
+	 $('[data-toggle="tooltip"]').tooltip();
 	$(window).on('scroll',function(){
 		if(document.body.scrollTop > 0){
 			$('.scrollToTop').css('display','block');

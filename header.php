@@ -109,4 +109,16 @@
         </div>
         <!-- /.container -->
 </nav>
+
+<!-- Call Now Widget -->
+<div class="call-us-alert col-md-12 col-sm-12 col-xs-12">
+	<div class='col-md-11 col-sm-11 col-xs-11 call-us-cont' id='call-us-alert-details'>
+		<span class='hidden-xs'><strong>Call now&nbsp;&nbsp;+91-90569 33666</strong></span>
+		<span class='visible-xs'><strong><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>&nbsp;&nbsp;+91-90569 33666</strong></span>
+	</div>
+	<div class='col-md-1 col-sm-1 col-xs-1 call-us-cont' id='call-us-alert-glyph'>
+		<a title='Check our contact details' href='./contact-us.php' class='alert-link'><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a> 
+	</div>
+</div>
+<!-- Call Now Widget Ends -->
 <?php require_once './structure/currency-converter.php'; ?>
