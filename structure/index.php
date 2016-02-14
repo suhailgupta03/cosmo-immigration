@@ -36,9 +36,9 @@
                 <h1 class="hidden-xs text-center">
                     Your Future. Our Advice.
                 </h1>
-                <h2 class="visible-xs text-center">
+                <h3 class="visible-xs text-center">
                 	Your Future. Our Advice.
-                </h2>
+                </h3>
             </div>
         </div>
     </div>
@@ -50,7 +50,7 @@
             <div class="row">
                 <div class="col-md-12 home-service">
                     <div class="home-service-item-body col-md-6">
-                        <h4 class="home-service-item text-center">Free Initial Consultation</h4>
+                        <h4 class="home-service-item text-center first-view-animate">Free Initial Consultation</h4>
                         <p>Our free initial consultation provides you an opportunity to initiate the contact for 
                             legal services without worrying about potential fee charges.
                             The free initial consultation gives you a good opportunity to know your immigration options. Often unknown to clients seeking immigration solutions, there are more than one option available.
@@ -61,7 +61,7 @@
                 </div>
                 <div class="col-md-12 home-service">
                     <div class="home-service-item-body col-md-6 pull-right col-sm-pull-left">
-                        <h4 class="home-service-item text-center">Apply For Upcoming Intakes</h4>
+                        <h4 class="home-service-item text-center first-view-animate">Apply For Upcoming Intakes</h4>
                         <p>Apply for upcoming intakes in Newzealand, Australia, Canada, USA, UK.  
                             We are here to assist you in all your queries related to your study Visas.
                             If you have made your mind to go abroad for further education , then its the 
@@ -74,7 +74,7 @@
                 </div>
                 <div class="col-md-12 home-service">
                     <div class="home-service-item-body col-md-6">
-                        <h4 class="home-service-item text-center">UG & PG Programs</h4>
+                        <h4 class="home-service-item text-center first-view-animate">UG & PG Programs</h4>
                         <p>Expert talk about the course duration of undergraduate and postgraduate courses in the USA, UK, Canda, Australia. The general entry requirement for these 
                            qualification will also be explained by our counsellers.</p>
                     </div>
@@ -90,7 +90,7 @@
 			<div class="col-md-4">			
 				<div class="panel panel-primary">
 					  <div class="panel-heading">
-					    <h3 class="panel-title text-center">Important Advice</h3>
+					    <h3 class="panel-title text-center first-view-animate">Important Advice</h3>
 					  </div>
 					  <div class="panel-body">
 					    <p><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>&nbsp;Do not violate any immigration visa provisions or laws.</p>
@@ -107,7 +107,7 @@
 			<div class="col-md-4">
 				<div class="panel panel-primary">
 					  <div class="panel-heading">
-					    <h3 class="panel-title text-center">Examination</h3>
+					    <h3 class="panel-title text-center first-view-animate">Examination</h3>
 					  </div>
 					  <div class="panel-body">
 					   <p>IELTS is an international standardised test of English language proficiency for non-native English language speakers.</p>
@@ -121,7 +121,7 @@
 			<div class="col-md-4">
 				<div class="panel panel-primary">
 					  <div class="panel-heading">
-					    <h3 class="panel-title text-center">Company Profile</h3>
+					    <h3 class="panel-title text-center first-view-animate">Company Profile</h3>
 					  </div>
 					  <div class="panel-body">
 					    <p>Cosmo Immigration has a wide portfolio of reputed international institutions & works closely with several organizations, high commissions & education bodies. It India's Leading Overseas Education Consultancy & has helped thousands of students achieve their dreams.</p>

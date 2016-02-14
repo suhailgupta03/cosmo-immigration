@@ -122,4 +122,21 @@
 	</div>
 </div>
 <!-- Call Now Widget Ends -->
-<?php require_once './structure/currency-converter.php'; ?>
+
+<!-- Schedule A Call Widget -->
+<div class='call-schedule-alert col-md-12 col-sm-12 col-xs-12'>
+	<div class='col-md-10 col-sm-9 col-xs-8 call-schedule-cont' id='call-schedule-text'>
+		<span class='hidden-xs'><strong>Schedule a call</strong></span>
+		<span class='visible-xs'><strong>Query ?</strong></span>
+	</div>
+	<div class='col-md-2 col-sm-3 col-xs-4 call-schedule-cont' id='call-schedule-glyph'>
+		<span data-toggle='modal' data-target='.call-schedule-modal' class="glyphicon glyphicon-menu-up" aria-hidden="true"></span>
+	</div>
+</div>
+<!-- Schedule A Call Widget Ends -->
+
+
+<?php 
+	require_once './structure/currency-converter.php'; 
+	require_once './structure/call-schedule.php';
+?>

@@ -66,6 +66,17 @@ $(function() {
         e.preventDefault();
         $(this).tab("show");
     });
+    
+    $("#call-schedule-form input").jqBootstrapValidation({
+    	preventSubmit: true,
+    	submitError: function($form, event, errors) {
+            // something to have when submit produces an error ?
+            // Not decided if I need it yet
+        },
+        submitSuccess: function($form, event) {
+        	
+        }
+    });
 });
 
 

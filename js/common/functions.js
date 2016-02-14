@@ -7,14 +7,15 @@ $(function(){
 	setTitle(window.location.pathname);
 	bindServiceLinks();
 	$('.brand-banner h1').addClass('animated pulse');
+	$('.brand-banner h3').addClass('animated pulse');
 	$(window).on('scroll',function(){
-		if(document.body.scrollTop > 0){
+		if(document.body.scrollTop > 0)
 			$('.scrollToTop').css('display','block');
-		}
-		else{
+		else
 			$('.scrollToTop').css('display','none');
-		}
-	})
+		
+		isScrolledIntoView();
+	});
 });
 
 /**
@@ -90,5 +91,19 @@ var bindServiceLinks	=	function(){
 	
 	$('.scrollToTop').on('click',function(){
 		$('body').animate({'scrollTop':0},750);
+	});
+};
+
+var isScrolledIntoView = function() {
+	$('.first-view-animate').each(function() {
+		if(!$(this).hasClass('animated pulse')) {
+			var docViewTop = $(window).scrollTop();
+			var docViewBottom = docViewTop + $(window).height();
+			var elementTop = $(this).offset().top;
+			var elementBottom = elementTop + $(this).height();
+			if( (elementBottom <= docViewBottom) && (elementTop >= docViewTop) ) {
+				$(this).addClass('animated pulse');
+			}
+		}
 	});
 };
