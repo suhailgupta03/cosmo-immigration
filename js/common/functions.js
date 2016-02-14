@@ -76,6 +76,9 @@ var setTitle = function(location) {
 	return titleSet;
 };
 
+$('.number-only').keydown(function(){
+	
+});
 /**
  * Menu Class
  * Defines all menu related functionalities
@@ -113,3 +116,28 @@ var isScrolledIntoView = function() {
 		}
 	});
 };
+
+$('#schedule-button').click(function(event) {
+	var error = false;
+	$('#call-schedule-form input').parent().removeClass('has-error');
+	$('#call-schedule-form input').each(function(){
+		if(!$(this).val()) 
+			error = true;
+		if( ($(this).attr('dname') == 'Phone Number') && ($(this).val().length != 10) )
+			error = true;
+		
+		if(error){
+			$(this).parent().addClass('has-error');
+			return false;
+		}
+	});
+	if(!error) {
+		$(this).button('loading');
+		// Send an ajax to store in the database
+		var name = $('#sc-name').val();
+		var phone = $('#sc-phone').val();
+		var query = $('#sc-query').val();
+		$('#sc-status').append("Alright! We'll call you soon.").addClass('bg-success text-center').css('display','block');
+		$(this).button('reset');
+	}
+});

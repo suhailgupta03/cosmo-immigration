@@ -9,36 +9,31 @@
       </div>
       
       <div class="modal-body">
-	       <form id="call-schedule-form" novalidate>
-                 <div class="control-group form-group">
-                     <div class="controls">
-                          <label>Full Name:</label>
-                          <input type="text" class="form-control" id="sc-name" required data-validation-required-message="Please enter your name.">
-                          <p class="help-block"></p>
-                      </div>
+	       <form id="call-schedule-form">
+                 <div class="form-group">
+                      <label class="control-label" for="sc-name">Full Name:</label>
+                      <input type="text" class="form-control" id="sc-name" dname="Name">
                  </div>
-                  <div class="control-group form-group">
-                        <div class="controls">
-                            <label>Phone Number:</label>
-                            <input type="text" class="form-control" id="sc-phone" required data-validation-number-message="Please enter your phone number.">
-                        </div>
-                   </div>
+                  <div class="form-group">
+                      <label class="control-label" for="sc-phone">Phone Number:</label>
+                      <input type="text" class="form-control number-only" id="sc-phone" dname="Phone Number">     
+                  </div>
                    <div class="form-group">
                         <label>Query Regarding:</label>
-                        <select class="form-control">
+                        <select class="form-control" id="sc-query">
                         	<option selected='selected'>IELTS</option>
                            	<option>International University</option>
                            	<option>Country Specific</option>
                            	<option>Existing Application</option>
                         </select>
                    </div>
-                   <div id="success"></div>
 			</form>
       </div>
       
       <div class="modal-footer">
         <button class="btn btn-warning" data-dismiss="modal">Close</button>
         <button type="submit" class="btn btn-primary" id="schedule-button" data-loading-text="Scheduling...">Schedule</button>
+		<p id='sc-status'></p>
       </div>
       
     </div>
