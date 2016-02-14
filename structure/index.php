@@ -32,13 +32,17 @@
     <!-- Page Content -->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-12 brand-banner text-center">
-                <h1>
-                    Welcome to Cosmo Immigration
+            <div class="col-md-12 col-sm-12 col-xs-12 brand-banner">
+                <h1 class="hidden-xs text-center">
+                    Your Future. Our Advice.
                 </h1>
+                <h2 class="visible-xs text-center">
+                	Your Future. Our Advice.
+                </h2>
             </div>
         </div>
     </div>
+    
     <div class="container"> <!-- Tag closed in footer.php -->
 
         <!-- Marketing Icons Section -->

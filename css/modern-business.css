@@ -212,7 +212,6 @@ h4.media-heading {
 .brand-banner {
     color: #004B8F;
     margin-top: 15px;
-    text-decoration: underline;
 }
 .navbar-custom {
     background-color: rgba(1,1,1,0.85);
@@ -373,6 +372,10 @@ div#share {
 	letter-spacing: 0.3px;
 }
 
+.about-content {
+	text-align: justify;
+	
+}
 @media (min-width: 829px) and (max-width: 976px) {
 	.call-us-alert  {
  	   width: 29%;
