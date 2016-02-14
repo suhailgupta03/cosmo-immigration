@@ -15,6 +15,12 @@ $(function(){
 			$('.scrollToTop').css('display','none');
 		
 		isScrolledIntoView();
+		if( ($(window).scrollTop() + $(window).height()) > $(document).height()-50 ) {
+			// No more scroll!
+			$('.call-schedule-alert').addClass('animated fadeOutRight');
+		}else {
+			$('.call-schedule-alert').removeClass('fadeOutRight').addClass('fadeInRight');
+		}
 	});
 });
 
