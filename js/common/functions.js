@@ -22,6 +22,16 @@ $(function(){
 			$('.call-schedule-alert').removeClass('fadeOutRight').addClass('fadeInRight');
 		}
 	});
+	
+	// Load jssocials.min.js  (async implementation)
+	$.getScript("js/jssocials.min.js",function(data,textStatus,jqxhr) {
+		$("#share").jsSocials({
+		    url : "http://www.cosmoimmigration.com",
+		    text : "Your Future. Our Advice #CosmoImmigration",
+            shares: ["email", "twitter", "facebook", "googleplus", "linkedin", "pinterest"]
+        });
+	});
+	
 });
 
 /**
