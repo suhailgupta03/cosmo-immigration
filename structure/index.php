@@ -1,33 +1,82 @@
-   <!-- Header Carousel -->
-    <header id="myCarousel" class="carousel slide">
-       <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-       </ol>
+<div class='home-banner row'>
+	<div class='left-pane col-md-6 col-sm-6'>
+		<div class="content">
+			<div class="content-wrap">
+				<h1>
+					SHAPING STUDENTS'<br/>
+					LIVES AND CAREERS<br />
+				</h1>
+				<div class="mini-carousel">
+							<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+								  <!-- Indicators -->
+								  <ol class="carousel-indicators">
+								    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+								    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+								  </ol>
+						
+								  <!-- Wrapper for slides -->
+								  <div class="carousel-inner" role="listbox">
+									    <div class="item active">
+									      <span class="fa-stack">
+									       	<i class="fa fa-circle fa-stack-4x text-primary"></i>
+									      	<i class="fa fa-graduation-cap fa-2x"></i>
+									      </span>
+									      <i class="fa fa-group fa-5x"></i> fa-5x
+									      <i class="fa fa-institution fa-5x"></i> fa-5x
+									      <i class="fa fa-globe fa-5x"></i> fa-5x
+									      <i class="fa fa-info fa-5x"></i> fa-5x
+									    </div>
+									    
+									    <div class="item">
+										  <i class="fa fa-bullseye fa-5x"></i> fa-5x
+									      <i class="fa fa-book fa-5x"></i> fa-5x
+									      <i class="fa fa-hand-peace-o fa-5x"></i> fa-5x
+									      <i class="fa fa-child fa-5x"></i> fa-5x
+									      <i class="fa fa-camera-retro fa-5x"></i> fa-5x
+									    </div>
+								  </div>
+							</div> 
+				</div>
+			</div>
+		</div>
+		<div class="img">
+			<img src="./images/la-palms.jpg" alt="..." class='img-responsive' />
+		</div>
+	</div>
+	
+	<div class='right-pane col-md-6 col-sm-6'>
+		<div id="home-page-carousel" class="carousel slide" data-ride="carousel">
+			  <!-- Indicators -->
+			  <ol class="carousel-indicators">
+			    <li data-target="#home-page-carousel" data-slide-to="0" class="active"></li>
+			    <li data-target="#home-page-carousel" data-slide-to="1"></li>
+			    <li data-target="#home-page-carousel" data-slide-to="2"></li>
+			  </ol>
+	
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner" role="listbox">
+				    <div class="item active">
+				      <img src="./images/1900x1080px.jpg" alt="...">
+				      <div class="carousel-caption">
+				      </div>
+				    </div>
+				    
+				    <div class="item">
+				      <img src="./images/1900x1080px.jpg" alt="...">
+				      <div class="carousel-caption">
+				      </div>
+				    </div>
+				    
+				    <div class="item">
+				      <img src="./images/1900x1080px.jpg" alt="...">
+				      <div class="carousel-caption">
+				      </div>
+				    </div>
+			  </div>
+		</div>   
+	</div>
+</div>
 
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">           
-            <div class="item active">
-                <div class="fill" style="background-image:url('./images/migrate-to-canada1.jpg');"></div>
-            </div>
-            <div class="item">
-                <div class="fill" style="background-image:url('./images/visas-banner-USA.jpg');"></div>
-            </div>
-            <div class="item">
-                <div class="fill" style="background-image:url('./images/sl3.jpg');"></div>
-            </div>
-          </div>
-
-            <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="icon-prev"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="icon-next"></span>
-        </a>
-    </header>
 
     <!-- Page Content -->
     <div class="container-fluid">
