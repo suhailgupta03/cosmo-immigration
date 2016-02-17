@@ -43,13 +43,6 @@ header.carousel .carousel-inner {
     height: 100%;
 }
 
-header.carousel .fill {
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-}
-
 /* 404 Page Styles */
 
 .error-404 {
@@ -336,7 +329,6 @@ div#share {
     height: 31px;
 	width: 24%;
     top: 50%;
-    /*margin-left:-107px;*/
     left: -10.8%;
     position: fixed;
     z-index: 10;
@@ -532,5 +524,10 @@ div#share {
 }
 
 .fa-item-carousel-text{
-	text-align: justify;
+	color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
 }

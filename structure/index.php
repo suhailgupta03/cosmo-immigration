@@ -22,7 +22,7 @@
 													<i class="fa fa-circle fa-stack-2x text-primary"></i>
 													<i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
 												</span>
-												<p class='fa-item-carousel-text'>lsdjjosdjcjsdlc sd csdcns dc sld cs dc sl;dc sdc sldcns cd skl cdks ckls dck sdk c</p>
+												<p class='fa-item-carousel-text'>Students' interests first</p>
 											</div>
 											
 										   <div class='fa-item-carousel'>
@@ -30,7 +30,7 @@
 													<i class="fa fa-circle fa-stack-2x text-primary"></i>
 													<i class="fa fa-institution fa-stack-1x fa-inverse"></i>
 											   </span>
-											   <p class='fa-item-carousel-text'>lsdjjosdjcjsdlc sd csdcns dc sld cs dc sl;dc sdc sldcns cd skl cdks ckls dck sdk c</p>
+											   <p class='fa-item-carousel-text'>Tieups with top universities</p>
 										   </div>
 										   
 										   <div class='fa-item-carousel'>
@@ -38,7 +38,7 @@
 													<i class="fa fa-circle fa-stack-2x text-primary"></i>
 													<i class="fa fa-group fa-stack-1x fa-inverse"></i>
 											  </span>
-											  <p class='fa-item-carousel-text'>lsdjjosdjcjsdlc sd csdcns dc sld cs dc sl;dc sdc sldcns cd skl cdks ckls dck sdk c</p>
+											  <p class='fa-item-carousel-text'>Best counselling and teaching facilities</p>
 										   </div>
 										   
 										   <div class='fa-item-carousel'>
@@ -46,7 +46,7 @@
 													<i class="fa fa-circle fa-stack-2x text-primary"></i>
 													<i class="fa fa-globe fa-stack-1x fa-inverse"></i>
 											  </span>
-											  <p class='fa-item-carousel-text'>lsdjjosdjcjsdlc sd csdcns dc sld cs dc sl;dc sdc sldcns cd skl cdks ckls dck sdk c</p>
+											  <p class='fa-item-carousel-text'>Throrough ethical standards</p>
 										   </div>  
 										   
 										   <div class='fa-item-carousel'>
@@ -54,7 +54,7 @@
 													<i class="fa fa-circle fa-stack-2x text-primary"></i>
 													<i class="fa fa-ticket fa-stack-1x fa-inverse"></i>
 											  </span>
-											  <p class='fa-item-carousel-text'>lsdjjosdjcjsdlc sd csdcns dc sld cs dc sl;dc sdc sldcns cd skl cdks ckls dck sdk c</p>
+											  <p class='fa-item-carousel-text'>Unrivaled visa success rate</p>
 										   </div >
 									  </div>
 									    
@@ -64,7 +64,7 @@
 													<i class="fa fa-circle fa-stack-2x text-primary"></i>
 													<i class="fa fa-bullseye fa-stack-1x fa-inverse"></i>
 												</span>
-												<p class='fa-item-carousel-text'>lsdjjosdjcjsdlc sd csdcns dc sld cs dc sl;dc sdc sldcns cd skl cdks ckls dck sdk c</p>
+												<p class='fa-item-carousel-text'>Committedd staff </p>
 											</div>
 											
 											<div class='fa-item-carousel'>
@@ -72,6 +72,7 @@
 													<i class="fa fa-circle fa-stack-2x text-primary"></i>
 													<i class="fa fa-book fa-stack-1x fa-inverse"></i>
 												 </span>
+												 <p class='fa-item-carousel-text'>Authentic study material </p>
 											</div>
 									      
 											<div class='fa-item-carousel'>
@@ -79,7 +80,7 @@
 													<i class="fa fa-circle fa-stack-2x text-primary"></i>
 													<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
 												 </span>
-												 <p class='fa-item-carousel-text'>lsdjjosdjcjsdlc sd csdcns dc sld cs dc sl;dc sdc sldcns cd skl cdks ckls dck sdk c</p>
+												 <p class='fa-item-carousel-text'>Trusted by our clients</p>
 											</div>
 									     
 											<div class='fa-item-carousel'>
