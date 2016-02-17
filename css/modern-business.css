@@ -497,10 +497,22 @@ div#share {
 }
 
 .content-wrap h1 {
+	color: #fff;
 	font-size: 51px;
 	line-height: 50px;
 	text-transform: uppercase;
 	margin-bottom: 5%;
+	font-weight: 800;
+	position: relative;
+	text-align: center;
+}
+
+.content-wrap h2 {
+	color: #fff;
+	font-size: 45px;
+	line-height: 49px;
+	text-transform: uppercase;
+	margin-bottom: 2%;
 	font-weight: 800;
 	position: relative;
 	text-align: center;
@@ -531,3 +543,13 @@ div#share {
     line-height: 22px;
     text-align: center;
 }
+
+.carousel-indicators .active {
+    background-color: #00b0ff;
+}
+
+.carousel-indicators li {
+	background-color: #ccc;
+	border: 0px;
+}
+

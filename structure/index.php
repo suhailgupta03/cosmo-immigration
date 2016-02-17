@@ -2,10 +2,14 @@
 	<div class='left-pane col-md-6 col-sm-6'>
 		<div class="content">
 			<div class="content-wrap">
-				<h1>
+				<h1 class="visible-lg visible-xs">
 					SHAPING STUDENTS'<br/>
 					LIVES AND CAREERS<br />
 				</h1>
+				<h2 class="visible-md visible-sm">
+					SHAPING STUDENTS'<br/>
+					LIVES AND CAREERS<br />
+				</h2>
 				<div class="mini-carousel">
 							<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 								  <!-- Indicators -->
@@ -64,7 +68,7 @@
 													<i class="fa fa-circle fa-stack-2x text-primary"></i>
 													<i class="fa fa-bullseye fa-stack-1x fa-inverse"></i>
 												</span>
-												<p class='fa-item-carousel-text'>Committedd staff </p>
+												<p class='fa-item-carousel-text'>Committed staff </p>
 											</div>
 											
 											<div class='fa-item-carousel'>
@@ -88,7 +92,7 @@
 													<i class="fa fa-circle fa-stack-2x text-primary"></i>
 													<i class="fa fa-child fa-stack-1x fa-inverse"></i>
 												 </span>
-												 <p class='fa-item-carousel-text'>lsdjjosdjcjsdlc sd csdcns dc sld cs dc sl;dc sdc sldcns cd skl cdks ckls dck sdk c</p>
+												 <p class='fa-item-carousel-text'>Trusted by our clients</p>
 											</div>
 									      
 											<div class='fa-item-carousel'>
@@ -96,7 +100,7 @@
 													<i class="fa fa-circle fa-stack-2x text-primary"></i>
 													<i class="fa fa-user fa-stack-1x fa-inverse"></i>
 												</span>
-												<p class='fa-item-carousel-text'>lsdjjosdjcjsdlc sd csdcns dc sld cs dc sl;dc sdc sldcns cd skl cdks ckls dck sdk c</p>
+												<p class='fa-item-carousel-text'>Trusted by our clients</p>
 											</div>									      
 									    </div>
 								  </div>
