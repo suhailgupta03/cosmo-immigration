@@ -497,22 +497,40 @@ div#share {
 
 .content {
 	position: absolute;
-    right: 51px;
-    bottom: 23%;
-    text-align: right;
-    vertical-align: middle;
-    padding: 0 0 40px 0;
+	text-align: right;
+	vertical-align: middle;
+	padding: 0 0 40px 0;
+	margin: auto;
+	width: 100%;
 }
 
 .content-wrap h1 {
-	font-size: 50px;
-    line-height: 50px;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    font-weight: 800;
+	font-size: 51px;
+	line-height: 50px;
+	text-transform: uppercase;
+	margin-bottom: 5%;
+	font-weight: 800;
+	position: relative;
+	text-align: center;
 }
 
 .left-pane, .right-pane {
 	padding-right: 0px;
 	padding-left: 0px;
+}
+
+.mini-carousel {
+    width: 90%;
+    margin: auto;
+}
+
+.fa-item-carousel{
+	display: block;
+	text-align: center;
+	width: 20%;
+	float: left;
+}
+
+.fa-item-carousel-text{
+	text-align: justify;
 }

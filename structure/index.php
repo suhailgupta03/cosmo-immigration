@@ -17,22 +17,86 @@
 								  <!-- Wrapper for slides -->
 								  <div class="carousel-inner" role="listbox">
 									    <div class="item active">
-									      <span class="fa-stack">
-									       	<i class="fa fa-circle fa-stack-4x text-primary"></i>
-									      	<i class="fa fa-graduation-cap fa-2x"></i>
-									      </span>
-									      <i class="fa fa-group fa-5x"></i> fa-5x
-									      <i class="fa fa-institution fa-5x"></i> fa-5x
-									      <i class="fa fa-globe fa-5x"></i> fa-5x
-									      <i class="fa fa-info fa-5x"></i> fa-5x
-									    </div>
+											<div class='fa-item-carousel'>
+												<span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
+												</span>
+												<p class='fa-item-carousel-text'>lsdjjosdjcjsdlc sd csdcns dc sld cs dc sl;dc sdc sldcns cd skl cdks ckls dck sdk c</p>
+											</div>
+											
+										   <div class='fa-item-carousel'>
+											   <span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-institution fa-stack-1x fa-inverse"></i>
+											   </span>
+											   <p class='fa-item-carousel-text'>lsdjjosdjcjsdlc sd csdcns dc sld cs dc sl;dc sdc sldcns cd skl cdks ckls dck sdk c</p>
+										   </div>
+										   
+										   <div class='fa-item-carousel'>
+											   <span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-group fa-stack-1x fa-inverse"></i>
+											  </span>
+											  <p class='fa-item-carousel-text'>lsdjjosdjcjsdlc sd csdcns dc sld cs dc sl;dc sdc sldcns cd skl cdks ckls dck sdk c</p>
+										   </div>
+										   
+										   <div class='fa-item-carousel'>
+											  <span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-globe fa-stack-1x fa-inverse"></i>
+											  </span>
+											  <p class='fa-item-carousel-text'>lsdjjosdjcjsdlc sd csdcns dc sld cs dc sl;dc sdc sldcns cd skl cdks ckls dck sdk c</p>
+										   </div>  
+										   
+										   <div class='fa-item-carousel'>
+											   <span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-ticket fa-stack-1x fa-inverse"></i>
+											  </span>
+											  <p class='fa-item-carousel-text'>lsdjjosdjcjsdlc sd csdcns dc sld cs dc sl;dc sdc sldcns cd skl cdks ckls dck sdk c</p>
+										   </div >
+									  </div>
 									    
 									    <div class="item">
-										  <i class="fa fa-bullseye fa-5x"></i> fa-5x
-									      <i class="fa fa-book fa-5x"></i> fa-5x
-									      <i class="fa fa-hand-peace-o fa-5x"></i> fa-5x
-									      <i class="fa fa-child fa-5x"></i> fa-5x
-									      <i class="fa fa-camera-retro fa-5x"></i> fa-5x
+											<div class='fa-item-carousel'>
+												<span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-bullseye fa-stack-1x fa-inverse"></i>
+												</span>
+												<p class='fa-item-carousel-text'>lsdjjosdjcjsdlc sd csdcns dc sld cs dc sl;dc sdc sldcns cd skl cdks ckls dck sdk c</p>
+											</div>
+											
+											<div class='fa-item-carousel'>
+												<span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-book fa-stack-1x fa-inverse"></i>
+												 </span>
+											</div>
+									      
+											<div class='fa-item-carousel'>
+												 <span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+												 </span>
+												 <p class='fa-item-carousel-text'>lsdjjosdjcjsdlc sd csdcns dc sld cs dc sl;dc sdc sldcns cd skl cdks ckls dck sdk c</p>
+											</div>
+									     
+											<div class='fa-item-carousel'>
+												<span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-child fa-stack-1x fa-inverse"></i>
+												 </span>
+												 <p class='fa-item-carousel-text'>lsdjjosdjcjsdlc sd csdcns dc sld cs dc sl;dc sdc sldcns cd skl cdks ckls dck sdk c</p>
+											</div>
+									      
+											<div class='fa-item-carousel'>
+												<span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-user fa-stack-1x fa-inverse"></i>
+												</span>
+												<p class='fa-item-carousel-text'>lsdjjosdjcjsdlc sd csdcns dc sld cs dc sl;dc sdc sldcns cd skl cdks ckls dck sdk c</p>
+											</div>									      
 									    </div>
 								  </div>
 							</div> 

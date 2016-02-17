@@ -72,7 +72,7 @@
     <script src="js/google_analytics.js" async></script>
     <script>
 	    $('.carousel').carousel({
-	        interval: 2000 //changes the speed
+	        interval: 200000 //changes the speed
 	    });
     </script>
     
