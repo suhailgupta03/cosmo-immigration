@@ -547,6 +547,9 @@ div#share {
 .carousel-indicators .active {
     background-color: #00b0ff;
 }
+div#carousel-example-generic{
+	min-height:180px;
+}
 
 .carousel-indicators li {
 	background-color: #ccc;
