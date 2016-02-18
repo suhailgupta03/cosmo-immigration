@@ -550,3 +550,59 @@ div#share {
 div#mini-carousel-lg{
 	min-height:180px;
 }
+
+.fa-item-carousel-md{
+	width: 25%;
+}
+
+.fa-item-carousel-sm {
+	width: 33.33%;
+}
+
+/** Mini-Carousel media queries **/
+@media (min-width: 768px) and (max-width: 900px){
+	.content-wrap h2 {
+		font-size: 35px;
+		line-height: 38px;
+		margin-bottom: 0%;
+	}	
+}
+
+@media (min-width: 901px) and (max-width: 991px) {
+	.content-wrap h2 {
+		font-size: 43px;
+	    line-height: 43px;
+	    text-transform: uppercase;
+	    margin-bottom: 3%;
+	}
+}
+
+@media (max-width: 414px) {
+	.content-wrap h2 {
+	    font-size: 41px;
+	    line-height: 45px;
+	    margin-bottom: 0%;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 413px){
+	.content-wrap h2 {
+	    font-size: 30px;
+	    line-height: 27px;
+	    margin-bottom: 0%;
+	}
+}
+
+@media (min-width: 561px) and (max-width: 766px){
+	.content-wrap h2 {
+		font-size: 59px;
+	    line-height: 60px;
+	    margin-bottom: 8%;
+	}
+}
+
+.mini-carousel .carousel-indicators {
+	left: 90%;
+}
+
+

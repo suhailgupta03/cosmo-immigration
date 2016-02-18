@@ -1,12 +1,12 @@
 <div class='home-banner row'>
-	<div class='left-pane col-md-6 col-sm-6'>
+	<div class='left-pane col-md-6 col-sm-6 col-xs-12'>
 		<div class="content">
 			<div class="content-wrap">
 				<h1 class="visible-lg">
 					SHAPING STUDENTS'<br/>
 					LIVES AND CAREERS<br />
 				</h1>
-				<h2 class="visible-md visible-sm">
+				<h2 class="visible-md visible-sm visible-xs">
 					SHAPING STUDENTS'<br/>
 					LIVES AND CAREERS<br />
 				</h2>
@@ -254,7 +254,7 @@
 								  </div>
 							</div> 
 				</div>
-				<div class="mini-carousel visible-sm">
+				<div class="mini-carousel visible-sm visible-xs">
 							<div id="mini-carousel-sm" class="carousel slide" data-ride="carousel">
 								  <!-- Indicators -->
 								  <ol class="carousel-indicators">
@@ -267,7 +267,7 @@
 								  <!-- Wrapper for slides -->
 								  <div class="carousel-inner" role="listbox">
 									    <div class="item active">
-											<div class='fa-item-carousel'>
+											<div class='fa-item-carousel fa-item-carousel-sm'>
 												<span class="fa-stack fa-lg fa-3x">
 													<i class="fa fa-circle fa-stack-2x text-primary"></i>
 													<i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
@@ -275,7 +275,7 @@
 												<p class='fa-item-carousel-text'>Students' interests first</p>
 											</div>
 											
-										   <div class='fa-item-carousel'>
+										   <div class='fa-item-carousel fa-item-carousel-sm'>
 											   <span class="fa-stack fa-lg fa-3x">
 													<i class="fa fa-circle fa-stack-2x text-primary"></i>
 													<i class="fa fa-institution fa-stack-1x fa-inverse"></i>
@@ -283,7 +283,7 @@
 											   <p class='fa-item-carousel-text'>Tieups with top universities</p>
 										   </div>
 										   
-										   <div class='fa-item-carousel'>
+										   <div class='fa-item-carousel fa-item-carousel-sm'>
 											   <span class="fa-stack fa-lg fa-3x">
 													<i class="fa fa-circle fa-stack-2x text-primary"></i>
 													<i class="fa fa-group fa-stack-1x fa-inverse"></i>
@@ -293,7 +293,7 @@
 									  </div>
 									    
 									    <div class="item">
-									    	<div class='fa-item-carousel'>
+									    	<div class='fa-item-carousel fa-item-carousel-sm'>
 											  <span class="fa-stack fa-lg fa-3x">
 													<i class="fa fa-circle fa-stack-2x text-primary"></i>
 													<i class="fa fa-globe fa-stack-1x fa-inverse"></i>
@@ -301,7 +301,7 @@
 											  <p class='fa-item-carousel-text'>Throrough ethical standards</p>
 										   </div>
 
-									    	<div class='fa-item-carousel'>
+									    	<div class='fa-item-carousel fa-item-carousel-sm'>
 											   <span class="fa-stack fa-lg fa-3x">
 													<i class="fa fa-circle fa-stack-2x text-primary"></i>
 													<i class="fa fa-ticket fa-stack-1x fa-inverse"></i>
@@ -309,7 +309,7 @@
 											  <p class='fa-item-carousel-text'>Unrivaled visa success rate</p>
 										   </div >
 
-											<div class='fa-item-carousel'>
+											<div class='fa-item-carousel fa-item-carousel-sm'>
 												<span class="fa-stack fa-lg fa-3x">
 													<i class="fa fa-circle fa-stack-2x text-primary"></i>
 													<i class="fa fa-bullseye fa-stack-1x fa-inverse"></i>
@@ -318,7 +318,7 @@
 											</div>							      
 									    </div>
 									    <div class="item">
-									    	<div class='fa-item-carousel'>
+									    	<div class='fa-item-carousel fa-item-carousel-sm'>
 												<span class="fa-stack fa-lg fa-3x">
 													<i class="fa fa-circle fa-stack-2x text-primary"></i>
 													<i class="fa fa-book fa-stack-1x fa-inverse"></i>
@@ -326,7 +326,7 @@
 												 <p class='fa-item-carousel-text'>Authentic study material </p>
 											</div>
 									      
-											<div class='fa-item-carousel'>
+											<div class='fa-item-carousel fa-item-carousel-sm'>
 												 <span class="fa-stack fa-lg fa-3x">
 													<i class="fa fa-circle fa-stack-2x text-primary"></i>
 													<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
@@ -334,7 +334,7 @@
 												 <p class='fa-item-carousel-text'>Trusted by our clients</p>
 											</div>	
 
-									    	<div class='fa-item-carousel'>
+									    	<div class='fa-item-carousel fa-item-carousel-sm'>
 												<span class="fa-stack fa-lg fa-3x">
 													<i class="fa fa-circle fa-stack-2x text-primary"></i>
 													<i class="fa fa-child fa-stack-1x fa-inverse"></i>
@@ -343,7 +343,7 @@
 											</div>								      
 									    </div>
 									    <div class="item">
-									    	<div class='fa-item-carousel'>
+									    	<div class='fa-item-carousel fa-item-carousel-sm'>
 											   <span class="fa-stack fa-lg fa-3x">
 													<i class="fa fa-circle fa-stack-2x text-primary"></i>
 													<i class="fa fa-ticket fa-stack-1x fa-inverse"></i>
@@ -351,7 +351,7 @@
 											  <p class='fa-item-carousel-text'>Unrivaled visa success rate</p>
 										   </div >
 
-											<div class='fa-item-carousel'>
+											<div class='fa-item-carousel fa-item-carousel-sm'>
 												<span class="fa-stack fa-lg fa-3x">
 													<i class="fa fa-circle fa-stack-2x text-primary"></i>
 													<i class="fa fa-bullseye fa-stack-1x fa-inverse"></i>
@@ -359,7 +359,7 @@
 												<p class='fa-item-carousel-text'>Committed staff </p>
 											</div>
 											
-											<div class='fa-item-carousel'>
+											<div class='fa-item-carousel fa-item-carousel-sm'>
 												<span class="fa-stack fa-lg fa-3x">
 													<i class="fa fa-circle fa-stack-2x text-primary"></i>
 													<i class="fa fa-book fa-stack-1x fa-inverse"></i>
@@ -377,7 +377,7 @@
 		</div>
 	</div>
 	
-	<div class='right-pane col-md-6 col-sm-6'>
+	<div class='right-pane col-md-6 col-sm-6 col-xs-12'>
 		<div id="home-page-carousel" class="carousel slide" data-ride="carousel">
 			  <!-- Indicators -->
 			  <ol class="carousel-indicators">
