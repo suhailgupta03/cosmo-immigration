@@ -2,7 +2,7 @@
 	<div class='left-pane col-md-6 col-sm-6'>
 		<div class="content">
 			<div class="content-wrap">
-				<h1 class="visible-lg visible-xs">
+				<h1 class="visible-lg">
 					SHAPING STUDENTS'<br/>
 					LIVES AND CAREERS<br />
 				</h1>
@@ -10,12 +10,12 @@
 					SHAPING STUDENTS'<br/>
 					LIVES AND CAREERS<br />
 				</h2>
-				<div class="mini-carousel">
-							<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				<div class="mini-carousel visible-lg">
+							<div id="mini-carousel-lg" class="carousel slide" data-ride="carousel">
 								  <!-- Indicators -->
 								  <ol class="carousel-indicators">
-								    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-								    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+								    <li data-target="#mini-carousel-lg" data-slide-to="0" class="active"></li>
+								    <li data-target="#mini-carousel-lg" data-slide-to="1"></li>
 								  </ol>
 						
 								  <!-- Wrapper for slides -->
@@ -102,6 +102,270 @@
 												</span>
 												<p class='fa-item-carousel-text'>Trusted by our clients</p>
 											</div>									      
+									    </div>
+								  </div>
+							</div> 
+				</div>
+				<div class="mini-carousel visible-md">
+							<div id="mini-carousel-md" class="carousel slide" data-ride="carousel">
+								  <!-- Indicators -->
+								  <ol class="carousel-indicators">
+								    <li data-target="#mini-carousel-md" data-slide-to="0" class="active"></li>
+								    <li data-target="#mini-carousel-md" data-slide-to="1"></li>
+								    <li data-target="#mini-carousel-md" data-slide-to="2"></li>
+								    <li data-target="#mini-carousel-md" data-slide-to="3"></li>
+								  </ol>
+						
+								  <!-- Wrapper for slides -->
+								  <div class="carousel-inner" role="listbox">
+									    <div class="item active">
+											<div class='fa-item-carousel fa-item-carousel-md'>
+												<span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
+												</span>
+												<p class='fa-item-carousel-text'>Students' interests first</p>
+											</div>
+											
+										   <div class='fa-item-carousel fa-item-carousel-md'>
+											   <span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-institution fa-stack-1x fa-inverse"></i>
+											   </span>
+											   <p class='fa-item-carousel-text'>Tieups with top universities</p>
+										   </div>
+										   
+										   <div class='fa-item-carousel fa-item-carousel-md'>
+											   <span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-group fa-stack-1x fa-inverse"></i>
+											  </span>
+											  <p class='fa-item-carousel-text'>Best counselling and teaching facilities</p>
+										   </div>
+										   
+										   <div class='fa-item-carousel fa-item-carousel-md'>
+											  <span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-globe fa-stack-1x fa-inverse"></i>
+											  </span>
+											  <p class='fa-item-carousel-text'>Throrough ethical standards</p>
+										   </div>
+									  </div>
+									    
+									    <div class="item">
+									    	<div class='fa-item-carousel fa-item-carousel-md'>
+											   <span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-ticket fa-stack-1x fa-inverse"></i>
+											  </span>
+											  <p class='fa-item-carousel-text'>Unrivaled visa success rate</p>
+										   </div >
+
+											<div class='fa-item-carousel fa-item-carousel-md'>
+												<span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-bullseye fa-stack-1x fa-inverse"></i>
+												</span>
+												<p class='fa-item-carousel-text'>Committed staff </p>
+											</div>
+											
+											<div class='fa-item-carousel fa-item-carousel-md'>
+												<span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-book fa-stack-1x fa-inverse"></i>
+												 </span>
+												 <p class='fa-item-carousel-text'>Authentic study material </p>
+											</div>
+									      
+											<div class='fa-item-carousel fa-item-carousel-md'>
+												 <span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+												 </span>
+												 <p class='fa-item-carousel-text'>Trusted by our clients</p>
+											</div>								      
+									    </div>
+									    <div class="item">
+									    	<div class='fa-item-carousel fa-item-carousel-md'>
+												<span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-child fa-stack-1x fa-inverse"></i>
+												 </span>
+												 <p class='fa-item-carousel-text'>Trusted by our clients</p>
+											</div>
+									      
+											<div class='fa-item-carousel fa-item-carousel-md'>
+												<span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-user fa-stack-1x fa-inverse"></i>
+												</span>
+												<p class='fa-item-carousel-text'>Trusted by our clients</p>
+											</div>	
+											
+											<div class='fa-item-carousel fa-item-carousel-md'>
+												<span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-book fa-stack-1x fa-inverse"></i>
+												 </span>
+												 <p class='fa-item-carousel-text'>Authentic study material </p>
+											</div>
+									      
+											<div class='fa-item-carousel fa-item-carousel-md'>
+												 <span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+												 </span>
+												 <p class='fa-item-carousel-text'>Trusted by our clients</p>
+											</div>								      
+									    </div>
+									    <div class="item">
+									    	<div class='fa-item-carousel fa-item-carousel-md'>
+											   <span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-ticket fa-stack-1x fa-inverse"></i>
+											  </span>
+											  <p class='fa-item-carousel-text'>Unrivaled visa success rate</p>
+										   </div >
+
+											<div class='fa-item-carousel fa-item-carousel-md'>
+												<span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-bullseye fa-stack-1x fa-inverse"></i>
+												</span>
+												<p class='fa-item-carousel-text'>Committed staff </p>
+											</div>
+											
+											<div class='fa-item-carousel fa-item-carousel-md'>
+												<span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-book fa-stack-1x fa-inverse"></i>
+												 </span>
+												 <p class='fa-item-carousel-text'>Authentic study material </p>
+											</div>
+									      
+											<div class='fa-item-carousel fa-item-carousel-md'>
+												 <span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+												 </span>
+												 <p class='fa-item-carousel-text'>Trusted by our clients</p>
+											</div>								      
+									    </div>
+								  </div>
+							</div> 
+				</div>
+				<div class="mini-carousel visible-sm">
+							<div id="mini-carousel-sm" class="carousel slide" data-ride="carousel">
+								  <!-- Indicators -->
+								  <ol class="carousel-indicators">
+								    <li data-target="#mini-carousel-sm" data-slide-to="0" class="active"></li>
+								    <li data-target="#mini-carousel-sm" data-slide-to="1"></li>
+								    <li data-target="#mini-carousel-sm" data-slide-to="2"></li>
+								    <li data-target="#mini-carousel-sm" data-slide-to="3"></li>
+								  </ol>
+						
+								  <!-- Wrapper for slides -->
+								  <div class="carousel-inner" role="listbox">
+									    <div class="item active">
+											<div class='fa-item-carousel'>
+												<span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
+												</span>
+												<p class='fa-item-carousel-text'>Students' interests first</p>
+											</div>
+											
+										   <div class='fa-item-carousel'>
+											   <span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-institution fa-stack-1x fa-inverse"></i>
+											   </span>
+											   <p class='fa-item-carousel-text'>Tieups with top universities</p>
+										   </div>
+										   
+										   <div class='fa-item-carousel'>
+											   <span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-group fa-stack-1x fa-inverse"></i>
+											  </span>
+											  <p class='fa-item-carousel-text'>Best counselling and teaching facilities</p>
+										   </div>
+									  </div>
+									    
+									    <div class="item">
+									    	<div class='fa-item-carousel'>
+											  <span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-globe fa-stack-1x fa-inverse"></i>
+											  </span>
+											  <p class='fa-item-carousel-text'>Throrough ethical standards</p>
+										   </div>
+
+									    	<div class='fa-item-carousel'>
+											   <span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-ticket fa-stack-1x fa-inverse"></i>
+											  </span>
+											  <p class='fa-item-carousel-text'>Unrivaled visa success rate</p>
+										   </div >
+
+											<div class='fa-item-carousel'>
+												<span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-bullseye fa-stack-1x fa-inverse"></i>
+												</span>
+												<p class='fa-item-carousel-text'>Committed staff </p>
+											</div>							      
+									    </div>
+									    <div class="item">
+									    	<div class='fa-item-carousel'>
+												<span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-book fa-stack-1x fa-inverse"></i>
+												 </span>
+												 <p class='fa-item-carousel-text'>Authentic study material </p>
+											</div>
+									      
+											<div class='fa-item-carousel'>
+												 <span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+												 </span>
+												 <p class='fa-item-carousel-text'>Trusted by our clients</p>
+											</div>	
+
+									    	<div class='fa-item-carousel'>
+												<span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-child fa-stack-1x fa-inverse"></i>
+												 </span>
+												 <p class='fa-item-carousel-text'>Trusted by our clients</p>
+											</div>								      
+									    </div>
+									    <div class="item">
+									    	<div class='fa-item-carousel'>
+											   <span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-ticket fa-stack-1x fa-inverse"></i>
+											  </span>
+											  <p class='fa-item-carousel-text'>Unrivaled visa success rate</p>
+										   </div >
+
+											<div class='fa-item-carousel'>
+												<span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-bullseye fa-stack-1x fa-inverse"></i>
+												</span>
+												<p class='fa-item-carousel-text'>Committed staff </p>
+											</div>
+											
+											<div class='fa-item-carousel'>
+												<span class="fa-stack fa-lg fa-3x">
+													<i class="fa fa-circle fa-stack-2x text-primary"></i>
+													<i class="fa fa-book fa-stack-1x fa-inverse"></i>
+												 </span>
+												 <p class='fa-item-carousel-text'>Authentic study material </p>
+											</div>							      
 									    </div>
 								  </div>
 							</div> 
