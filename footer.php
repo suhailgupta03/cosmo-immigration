@@ -69,10 +69,9 @@
     <script src="js/constant.js"></script>
     <script src="js/common/functions.js"></script>
     <script src="js/currency-converter.js"></script>
-    <script src="js/google_analytics.js" async></script>
     <script>
 	    $('.carousel').carousel({
-	        interval: 2000000 //changes the speed
+	        interval: 3000 //changes the speed
 	    });
     </script>
     

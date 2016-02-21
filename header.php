@@ -1,15 +1,15 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, max-scale=1">
     <meta name="theme-color" content="#004B8F">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Cosmo Immigration</title>
+    <meta name="keywords" content="ielts preparation mohali, immigration consultants mohali chandigarh, study abroad, study overseas, study overseas consultants, study abroad consultants, overseas education consultants, global education services, global education consultants, higher education consultants, best education consultants in India, Top education consultants in India, Best overseas education consultants in India, career counselling services, university specific information" />
+    <meta name="description" content="Student immigration consultants in mohali, punjab. Preparation for IELTS. Study abroad through Cosmo Immigration and overseas education in UK, USA, Australia, Germany, France, Italy, Switzerland, Singapore, Malaysia and Canada boost up your future prospects.">
+   	<meta name="robots" content="index, follow" />
+    <meta name="author" content="suhail">
+    <title>Cosmo Immigration | Study Abroad | Study Overseas Consultants | Global Education Consultants Abroad UK, USA, Australia, Canada, Germany, France, NZ</title>
 
 	<link rel='shortcut icon' type='image/vnd.microsoft.icon' href='./favicon.ico' />
 	<link rel='icon' type='image/vnd.microsoft.icon' href='./favicon.ico' />
@@ -19,6 +19,7 @@
     <link href="css/animate.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="css/jssocials.css" />
     <link rel="stylesheet" type="text/css" href="css/jssocials-theme-flat.css" />
+    <script src="js/google_analytics.js" async></script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
