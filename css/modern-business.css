@@ -4,6 +4,7 @@ html,
 body {
     height: 100%;
     font:14px Roboto,Arial,Sans-serif;
+    
 }
 @font-face {
   font-family: 'Roboto';
@@ -453,7 +454,7 @@ div#share {
 
 .call-schedule-alert {
 	position: fixed;
-    top: 96.9%;
+    bottom: 0;
     z-index: 10;
     background-color: #FFB100;
     width: 25%;
@@ -471,7 +472,7 @@ div#share {
 	color: white;
 }
 
-#call-schedule-glyph > .glyphicon {
+.call-schedule-alert {
 	cursor: pointer;
 }
 
@@ -513,8 +514,7 @@ div#share {
 }
 
 .left-pane, .right-pane {
-	padding-right: 0px;
-	padding-left: 0px;
+	padding: 0px;
 }
 
 .mini-carousel {
@@ -547,8 +547,12 @@ div#share {
 	border: 0px;
 }
 
-div#mini-carousel-lg{
-	min-height:180px;
+div#mini-carousel-lg, div#mini-carousel-md{
+	min-height:182px;
+}
+
+div#mini-carousel-sm {
+	min-height:160px;
 }
 
 .fa-item-carousel-md{
@@ -566,6 +570,9 @@ div#mini-carousel-lg{
 		line-height: 38px;
 		margin-bottom: 0%;
 	}	
+	#mini-carousel-sm > .carousel-indicators {
+		bottom: 26px;
+	}
 }
 
 @media (min-width: 901px) and (max-width: 991px) {
@@ -577,19 +584,36 @@ div#mini-carousel-lg{
 	}
 }
 
-@media (max-width: 414px) {
+@media (max-width: 414px) { /* IPhone 6 Plus */
 	.content-wrap h2 {
 	    font-size: 41px;
 	    line-height: 45px;
 	    margin-bottom: 0%;
 	}
+	#mini-carousel-sm .carousel-indicators {
+		bottom: 24px;
+	}
 }
 
-@media (min-width: 320px) and (max-width: 413px){
+@media (min-width: 320px) and (max-width: 374px){/* IPhone 4 + 5*/
 	.content-wrap h2 {
-	    font-size: 30px;
-	    line-height: 27px;
+	    font-size: 27px;
+	    line-height: 24px;
 	    margin-bottom: 0%;
+	    margin-top: 9px;
+	}
+	#mini-carousel-sm .carousel-indicators {
+    	bottom: 47px;
+	}
+	div#mini-carousel-sm {
+    	min-height: 182px;
+	}
+}
+
+@media (min-width: 375px) and (max-width: 413px){ /* IPhone 6*/
+	.content-wrap h2 {
+	    font-size: 35px;
+	    line-height: 33px;
 	}
 }
 
@@ -599,10 +623,23 @@ div#mini-carousel-lg{
 	    line-height: 60px;
 	    margin-bottom: 8%;
 	}
+	#mini-carousel-sm > .carousel-indicators {
+		bottom: 16px;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+	/* For xs-resolution, place mini carousel indicators at the center*/
+	.mini-carousel > #mini-carousel-sm > .carousel-indicators {
+		left: 50%;
+	}
 }
 
 .mini-carousel .carousel-indicators {
 	left: 90%;
 }
 
+.services-about-container {
+	clear: left;
+}
 

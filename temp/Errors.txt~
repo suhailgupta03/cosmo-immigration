@@ -1,0 +1,2 @@
+
+Feb-20-2016/13:00:42 ---  --  Client IP: 127.0.0.1 -- Error: query: --INSERT INTO queries_received SET query = '', phone = '9650185444', name = 'suhail' -- Error: --Duplicate entry '0' for key 'PRIMARY'

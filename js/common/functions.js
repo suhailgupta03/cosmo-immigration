@@ -147,7 +147,31 @@ $('#schedule-button').click(function(event) {
 		var name = $('#sc-name').val();
 		var phone = $('#sc-phone').val();
 		var query = $('#sc-query').val();
-		$('#sc-status').append("Alright! We'll call you soon.").addClass('bg-success text-center').css('display','block');
-		$(this).button('reset');
+		$('#sc-status').empty();
+		$.ajax({
+			method: "POST",
+			url: "./bin/parser.php",
+			dataType: 'html',
+			data:{
+				param: '2',
+				fullName: name,
+				phoneNumber: phone,
+				queryRegarding: query
+			},
+			statusCode:{
+				404: function() {
+					alert('Unable to locate post end point');
+				}
+			}		
+		})
+		.done(function(data, textStatus, jqXHR ){			
+			$('#sc-status').append("Alright! We'll call you soon.").addClass('bg-success text-center').css('display','block');
+		})
+		.fail(function(jqXHR, textStatus, errorThrown){
+			$('#sc-status').append("Something failed! Please check your connection.").addClass('bg-error text-center').css('display','block');
+		})
+		.always(function(jqXHR, textStatus, errorThrown){
+			$('#schedule-button').button('reset');
+		});
 	}
 });

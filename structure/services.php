@@ -158,46 +158,43 @@
             <div class="col-lg-12">
                 <h2 class="page-header">Service List</h2>
             </div>
-            <div class="col-md-4">
-                <div class="media">
-                    <div class="pull-left">
-                        <span class="fa-stack">
-                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-book fa-stack-1x fa-inverse"></i>
-                        </span> 
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading"><a href='#career_counselling' class="service_link">Career Counselling</a></h4>
-<!--                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p> -->
-                    </div>
-                </div>
-                <div class="media">
-                    <div class="pull-left">
-                        <span class="fa-stack">
-                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
-                        </span> 
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading"><a href="#university_selection" class="service_link">University/College Selection</a></h4>
-<!--                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p> -->
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="media">
-                    <div class="pull-left">
-                        <span class="fa-stack">
-                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-users fa-stack-1x fa-inverse"></i>
-                        </span> 
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading"><a href="#job_awareness" class="service_link">Job Awareness</a></h4>
-<!--                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p> -->
-                    </div>
-                </div>
-                <div class="media">
+         </div>
+	                <div class="media col-md-4 col-sm-6">
+	                    <div class="pull-left">
+	                        <span class="fa-stack">
+	                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+	                              <i class="fa fa-book fa-stack-1x fa-inverse"></i>
+	                        </span> 
+	                    </div>
+	                    <div class="media-body">
+	                        <h4 class="media-heading"><a href='#career_counselling' class="service_link">Career Counselling</a></h4>
+	                    </div>
+	                </div>
+	                <div class="media col-md-4 col-sm-6">
+	                    <div class="pull-left">
+	                        <span class="fa-stack">
+	                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+	                              <i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
+	                        </span> 
+	                    </div>
+	                    <div class="media-body">
+	                        <h4 class="media-heading"><a href="#university_selection" class="service_link">University/College Selection</a></h4>
+	                    </div>
+	                </div>
+	                <div class="media col-md-4 col-sm-6">
+	                    <div class="pull-left">
+	                        <span class="fa-stack">
+	                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+	                              <i class="fa fa-users fa-stack-1x fa-inverse"></i>
+	                        </span> 
+	                    </div>
+	                    <div class="media-body">
+	                        <h4 class="media-heading"><a href="#job_awareness" class="service_link">Job Awareness</a></h4>
+	                    </div>
+	                </div>
+	                
+	               
+	           <div class="media col-md-4 col-sm-6">
                     <div class="pull-left">
                         <span class="fa-stack">
                               <i class="fa fa-circle fa-stack-2x text-primary"></i>
@@ -206,12 +203,9 @@
                     </div>
                     <div class="media-body">
                         <h4 class="media-heading"><a href="#visa_assistance" class="service_link">Visa Assistance</a></h4>
-<!--                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p> -->
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-               <div class="media">
+                <div class="media col-md-4 col-sm-6">
                     <div class="pull-left">
                         <span class="fa-stack">
                               <i class="fa fa-circle fa-stack-2x text-primary"></i>
@@ -220,10 +214,9 @@
                     </div>
                     <div class="media-body">
                         <h4 class="media-heading"><a href="#admission-guidance" class="service_link">Admission Guidance</a></h4>
-<!--                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p> -->
                     </div>
                 </div>
-                 <div class="media">
+                 <div class="media col-md-4 col-sm-6">
                     <div class="pull-left">
                         <span class="fa-stack">
                               <i class="fa fa-circle fa-stack-2x text-primary"></i>
@@ -232,12 +225,9 @@
                     </div>
                     <div class="media-body">
                         <h4 class="media-heading"><a href="#pre_departure_guidance" class="service_link">Pre-Departure Guidance</a></h4>
-<!--                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p> -->
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="container">
+        <div class="container services-about-container">
         	<div id="career_counselling" class="service_item">
         		<h3>Career Counselling</h3>
         		<p>Assistance in choosing best Career Path. If you are worried about which Career to choose then COSMO IMMIGRATION guides you through to find solutions best suited to your profile ensuring you choose the best Career Path</p>

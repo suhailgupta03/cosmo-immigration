@@ -1,3 +1,4 @@
+<div class="container-fluid">
 <div class='home-banner row'>
 	<div class='left-pane col-md-6 col-sm-6 col-xs-12'>
 		<div class="content">
@@ -409,7 +410,7 @@
 		</div>   
 	</div>
 </div>
-
+</div>
 
     <!-- Page Content -->
     <div class="container-fluid">
@@ -428,7 +429,6 @@
     <div class="container"> <!-- Tag closed in footer.php -->
 
         <!-- Marketing Icons Section -->
-        <div class="row">
             <div class="row">
                 <div class="col-md-12 home-service">
                     <div class="home-service-item-body col-md-6">
@@ -464,7 +464,6 @@
                     </div>
                 </div>
             </div>
-        </div>
         <!-- /.row -->
         
         <!-- Panels -->

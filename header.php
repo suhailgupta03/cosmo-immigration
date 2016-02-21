@@ -4,7 +4,8 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, max-scale=1">
+    <meta name="theme-color" content="#004B8F">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -30,7 +31,7 @@
  <body>
     <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
+        <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -124,16 +125,19 @@
 <!-- Call Now Widget Ends -->
 
 <!-- Schedule A Call Widget -->
-<div class='call-schedule-alert col-md-12 col-sm-12 col-xs-12'>
-	<div class='col-md-10 col-sm-9 col-xs-8 call-schedule-cont' id='call-schedule-text'>
-		<span class='hidden-xs'><strong>Schedule a call</strong></span>
-		<span class='visible-xs'><strong>Query ?</strong></span>
+<div class='container-fluid'>
+	<div class='call-schedule-alert row' data-toggle='modal' data-target='.call-schedule-modal'>
+		<div class='col-md-10 col-sm-9 col-xs-8 call-schedule-cont' id='call-schedule-text'>
+			<span class='hidden-xs'><strong>Schedule a call</strong></span>
+			<span class='visible-xs'><strong>Query ?</strong></span>
+		</div>
+		<div class='col-md-2 col-sm-3 col-xs-4 call-schedule-cont' id='call-schedule-glyph'>
+			<span  class="glyphicon glyphicon-menu-up" aria-hidden="true"></span>
+		</div>
 	</div>
-	<div class='col-md-2 col-sm-3 col-xs-4 call-schedule-cont' id='call-schedule-glyph'>
-		<span data-toggle='modal' data-target='.call-schedule-modal' class="glyphicon glyphicon-menu-up" aria-hidden="true"></span>
-	</div>
+	<!-- Schedule A Call Widget Ends -->
 </div>
-<!-- Schedule A Call Widget Ends -->
+
 
 
 <?php 

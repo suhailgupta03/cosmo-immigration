@@ -34,7 +34,7 @@
                     <abbr title="Email">E</abbr>: <a href="mailto:info@cosmoimmigration.com">info@cosmoimmigration.com</a>
                 </p>
                 <p class='contact-content'><i class="fa fa-clock-o"></i> 
-                    <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
+                    <abbr title="Hours">H</abbr>: Monday - Saturday: 9:00 AM to 10:00 PM</p>
                 <ul class="list-unstyled list-inline list-social-icons">
                     <li>
                         <a href="https://www.facebook.com/cosmoimmigration"><i class="fa fa-facebook-square fa-2x"></i></a>
