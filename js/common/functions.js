@@ -32,6 +32,13 @@ $(function(){
         });
 	});
 	
+	$(".mini-carousel > .carousel, .right-pane > .carousel").swiperight(function() {
+		$(this).carousel('prev');
+	});
+	
+	$(".mini-carousel > .carousel, .right-pane > .carousel").swipeleft(function() {  
+		$(this).carousel('next');
+	});	
 });
 
 /**
