@@ -3,10 +3,12 @@
     <div class="modal-content">		
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h2 class="modal-title">Subscribe To Our Newsletter</h2>
+        <h2 class="modal-title text-center">Subscribe To Our Newsletter</h2>
       </div>      
       <div class="modal-body">
-		    <p class="newsletter-modal-content">Get IELTS preparation tips and news regarding the upcoming batches at Cosmo Immigration. Enter your email address and be the first one to know!</p>        
+      	<div class="well">
+		    <p class="newsletter-modal-content">Need <strong>IELTS</strong> preparation tips and news regarding the upcoming batches at <strong>Cosmo Immigration</strong>&nbsp;?</p> 
+		    <p>Enter your email address and be the first one to know!</p>        
         <div class="row newsletter-modal-email-container">
     			<div class="col-md-12">
     				<div class="input-group">
@@ -16,7 +18,7 @@
     				  </span>
     				</div>
     			</div>        
-        </div>		
+        </div>		</div>
       </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->

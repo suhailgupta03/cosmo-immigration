@@ -655,3 +655,15 @@ div#mini-carousel-sm {
 #email-for-newsletters {
 	font-style: italic;
 }
+
+#newsletter-modal .modal-header {
+	background: #FFB100;
+}
+
+#newsletter-modal .modal-title {
+	color: rgb(255, 255, 255);
+}
+
+#newsletter-modal .well p {
+	letter-spacing: 0.3px;
+}
