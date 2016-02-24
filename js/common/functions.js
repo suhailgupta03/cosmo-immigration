@@ -39,6 +39,11 @@ $(function(){
 	$(".mini-carousel > .carousel, .right-pane > .carousel").swipeleft(function() {  
 		$(this).carousel('next');
 	});	
+	
+	setTimeout(
+		function(){
+			$('#newsletter-modal').modal('show');
+		},4000);
 });
 
 /**
@@ -175,10 +180,22 @@ $('#schedule-button').click(function(event) {
 			$('#sc-status').append("Alright! We'll call you soon.").addClass('bg-success text-center').css('display','block');
 		})
 		.fail(function(jqXHR, textStatus, errorThrown){
-			$('#sc-status').append("Something failed! Please check your connection.").addClass('bg-error text-center').css('display','block');
+			$('#sc-status').append("Something failed! Please check your connection.").addClass('bg-warning text-center').css('display','block');
 		})
 		.always(function(jqXHR, textStatus, errorThrown){
 			$('#schedule-button').button('reset');
 		});
+	}
+});
+
+$('#subscribe-button').click(function(event){
+	var email = $('#email-for-newsletters').val();
+	var emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+	if(emailRegex.test(email)) {
+		// Email Validation Success
+		$('#newsletter-modal').addClass('animated bounceOut').modal('hide');
+	}else {
+		$('.newsletter-modal-email-container').next().remove();
+		$('.newsletter-modal-email-container').after('<div class="bg-danger"><div class="text-center"><strong>Invalid Address</strong></div></div>');
 	}
 });

@@ -643,3 +643,15 @@ div#mini-carousel-sm {
 	clear: left;
 }
 
+.newsletter-modal-content{
+	line-height: 20px;
+}
+
+.newsletter-modal-email-container {
+	margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#email-for-newsletters {
+	font-style: italic;
+}

@@ -60,7 +60,7 @@
         </footer>
     <!-- /.container : Opened inside header.php -->
 
-
+	<?php require_once './structure/newsletter.php'; ?>
 	<!-- Include JavaScript files -->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
