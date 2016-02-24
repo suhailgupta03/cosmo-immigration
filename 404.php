@@ -2,7 +2,7 @@
 
 /**
  * For HTTP Status 404 on Cosmo Immigration
- * @author Suhail
+ * @author Suhail Gupta
  * @version 1.0.0
  */
 
