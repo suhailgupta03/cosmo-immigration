@@ -30,7 +30,7 @@
 			      <div class="col-md-3 col-md-offset-0 col-sm-3 col-sm-offset-3 col-xs-5 col-xs-offset-1">
 			        <ul class="nav nav-pills nav-stacked">
 			          <li><a href="#">Write a Query</a></li>
-			          <li><a href="#">Register for Newsletters</a></li>   
+			          <li><a href="#" data-toggle="modal" data-target="#newsletter-modal">Register for Newsletters</a></li>   
 			          <li><a href="#" data-toggle="modal" data-target=".currency-converter-modal">Currency Converter</a></li> 
 			          <li><a href="#">UG Studies</a></li>    
 			          <li><a href="./faq.php">FAQ's</a></li>                             

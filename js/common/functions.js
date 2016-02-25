@@ -40,10 +40,20 @@ $(function(){
 		$(this).carousel('next');
 	});	
 	
-	setTimeout(
-		function(){
-			$('#newsletter-modal').modal('show');
-		},4000);
+	var cookieList = document.cookie.split(';');
+	var newsLetterCookie = $.grep(cookieList,function(cookie){
+		var cookie = cookie.split('=');
+		return cookie[0].trim() == 'newsletter-modal-closed';
+	});
+
+	var newsLetterCookieValue = (newsLetterCookie.length != 0) ? newsLetterCookie[0].split('=')[1] : null;
+	if(!newsLetterCookieValue) {
+		setTimeout(
+			function(){
+				$('#newsletter-modal').modal('show');
+			},4000
+		);
+	}
 });
 
 /**
@@ -199,3 +209,7 @@ $('#subscribe-button').click(function(event){
 		$('.newsletter-modal-email-container').after('<div class="bg-danger"><div class="text-center"><strong>Invalid Address</strong></div></div>');
 	}
 });
+
+$('#newsletter-modal').on('hidden.bs.modal', function (e) {
+  	document.cookie = "newsletter-modal-closed=true; path=/"
+})
