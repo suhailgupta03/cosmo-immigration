@@ -374,7 +374,7 @@
 			</div>
 		</div>
 		<div class="img">
-			<img src="./images/la-palms.jpg" alt="..." class='img-responsive' />
+			<img src="./images/f2.jpg" alt="..." class='img-responsive right-carousel-img' />
 		</div>
 	</div>
 	
@@ -390,20 +390,23 @@
 			  <!-- Wrapper for slides -->
 			  <div class="carousel-inner" role="listbox">
 				    <div class="item active">
-				      <img src="./images/1900x1080px.jpg" alt="...">
-				      <div class="carousel-caption">
+				      <img src="./images/f1.jpg" alt="...">
+				      <div class="carousel-caption hidden-xs">
+				       Get A Counselling Session With Our Experts
 				      </div>
 				    </div>
 				    
 				    <div class="item">
-				      <img src="./images/1900x1080px.jpg" alt="...">
+				      <img src="./images/f4.jpg" alt="...">
 				      <div class="carousel-caption">
+				      	IELTS Preparation With Cosmo Immigration
 				      </div>
 				    </div>
 				    
 				    <div class="item">
-				      <img src="./images/1900x1080px.jpg" alt="...">
-				      <div class="carousel-caption">
+				      <img src="./images/f3.jpg" alt="...">
+				      <div class="carousel-caption hidden-xs">
+				      	Apply For Academic Courses In Canada
 				      </div>
 				    </div>
 			  </div>

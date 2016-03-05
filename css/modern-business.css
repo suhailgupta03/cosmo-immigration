@@ -667,3 +667,14 @@ div#mini-carousel-sm {
 #newsletter-modal .well p {
 	letter-spacing: 0.3px;
 }
+
+.carousel-caption {
+	background-color: rgba(0, 176, 255, 0.45);
+    border-radius: 9px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.right-carousel-img {
+	width: 100%;
+}
