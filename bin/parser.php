@@ -54,6 +54,23 @@ switch($param) {
 			echo "success";
 		break;
 	
+	case 3:
+		$firstName = $_POST['firstName'];
+		$lastName = $_POST['lastName'];
+		$mobile = $_POST['mobile'];
+		$email = $_POST['email'];
+		$aboutY = $_POST['aboutY'];
+		$insertArray = array(
+				'Table' => 'queries_received',
+				'Fields' => array(
+						'query' => $queryRegarding,
+						'phone' => $phoneNumber,
+						'name' => $fullName
+				)
+		);
+		$iresult = DB_Insert($insertArray);
+		if($iresult)
+			echo "success";
 	default:
 		break;
 		

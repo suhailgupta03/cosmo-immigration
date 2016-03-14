@@ -85,7 +85,3 @@
                 </div>
             </div>
         </div>
-        
-<script>
-	document.title = 
-</script>
