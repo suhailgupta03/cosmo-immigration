@@ -8,12 +8,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#004B8F">
 	    <meta name="keywords" content="ielts preparation mohali, immigration consultants mohali chandigarh, apply for scholarships abroad, ielts scholarships" />
-	    <meta name="description" content="Student immigration consultants in mohali, punjab. Preparation for IELTS. Apply for scholarships abroad with cosmo immigration">
+	    <meta name="description" content="Student immigration consultants in mohali, punjab. Preparation for IELTS. Apply for scholarships abroad with cosmo immigration" />
         <title>CosmoImmigration - SignUp | SignUp For Scholarships</title>
 
-<!-- 		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500"> -->
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
         <link rel="stylesheet" href="../css/bootstrap.min.css">
-        <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/animate.css">
 		<link rel="stylesheet" href="../css/signup-form.css">
         <link rel="stylesheet" href="../css/signup-style.css">
 
@@ -38,7 +38,7 @@
                 	
                     <div class="row">
                         <div class="col-sm-8 col-sm-offset-2 text">
-                            <h1>Cosmo Immigration -&nbsp;<strong>Scholarships</strong></h1>
+                            <h1>Cosmo Immigration -&nbsp;<strong class='animated sign-up-text'>Scholarships</strong></h1>
                             <div class="description">
                             	<p>
 	                            	<strong>"Sign Up"</strong> with <a href="../index.php">us</a> and get a chance for a scholarship

@@ -5,7 +5,7 @@ jQuery(document).ready(function() {
     */
     $.backstretch("../images/backgrounds/sign-up-bg.jpg");
     
-    
+    $('.animated.sign-up-text').addClass('pulse');
     /*
         Registration form validation
     */
@@ -40,7 +40,9 @@ jQuery(document).ready(function() {
 			}		
 		})
 		.done(function(data, textStatus, jqXHR ){
-			if(data == 'success')
+			if(data == 'success'){
+				
+			}
 		})
 		.fail(function(jqXHR, textStatus, errorThrown){
 
