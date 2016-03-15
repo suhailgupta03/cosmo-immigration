@@ -75,8 +75,8 @@ class DBMgr{
 		global $error_code;
 		switch ($this->dbType) {
 			case 'mysql':
-				$DB_OperationError	=	mysqli_error($this->connection);
-				$error_code = mysqli_errno($this->connection); 
+				$DB_OperationError	=	this->connection->connect_error;
+				$error_code = $this->connection->connect_errno; 
 				break;
 			case 'mssql':
 				$DB_OperationError	=	mssql_get_last_message();
@@ -86,7 +86,7 @@ class DBMgr{
 				break;		
 		}
 
-		ErrorLogging('query: --'.$Query.' -- '.'Error: --'.$DB_OperationError);
+		ErrorLogging('query: --'.$Query.' -- '.'Error: --'.$DB_OperationError.' Error Code -- '.$error_code);
 	}
 	
 	
