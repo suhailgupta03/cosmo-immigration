@@ -107,7 +107,7 @@
         	</div>
         </footer>
         
-       <img src='../images/482.gif' id='signup-preloader-img' class='img-circle img-thumbnail' />
+       <img src='../images/482.gif' id='signup-preloader-img' class='img-circle img-thumbnail' alt='signup ajax preloader'/>
 
         <!-- Javascript -->
         <script src="../js/jquery.js"></script>

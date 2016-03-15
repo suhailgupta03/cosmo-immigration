@@ -72,6 +72,7 @@ switch($param) {
 		$iresult = DB_Insert($insertArray);
 		if($iresult)
 			echo "success";
+		break;
 	default:
 		break;
 		
