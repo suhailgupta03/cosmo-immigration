@@ -223,4 +223,8 @@ footer a:hover, footer a:focus { color: #fff; border-bottom: 1px dotted #fff; }
 	h1, h2 { font-size: 32px; }
 
 }
-
+#signup-preloader-img {
+	display: none;
+	position: fixed;
+	bottom: 35%;
+}

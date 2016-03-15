@@ -75,7 +75,8 @@ class DBMgr{
 		global $error_code;
 		switch ($this->dbType) {
 			case 'mysql':
-				$DB_OperationError	=	$this->connection->connect_error;
+				var_dump($this->connection);
+				$DB_OperationError	=	this->connection->connect_error;
 				$error_code = $this->connection->connect_errno; 
 				break;
 			case 'mssql':

@@ -55,17 +55,18 @@ switch($param) {
 		break;
 	
 	case 3:
-		$firstName = $_POST['firstName'];
-		$lastName = $_POST['lastName'];
+		$fullName = $_POST['firstName'] . ' '. $_POST['lastName'];
 		$mobile = $_POST['mobile'];
 		$email = $_POST['email'];
 		$aboutY = $_POST['aboutY'];
 		$insertArray = array(
-				'Table' => 'queries_received',
+				'Table' => 'user_info',
 				'Fields' => array(
-						'query' => $queryRegarding,
-						'phone' => $phoneNumber,
-						'name' => $fullName
+						'full_name' => $fullName,
+						'phone_number' => $mobile,
+						'username' => $email,
+						'notes' => $aboutY,
+						'user_type' => -1
 				)
 		);
 		$iresult = DB_Insert($insertArray);

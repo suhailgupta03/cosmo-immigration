@@ -24,7 +24,7 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <link rel='shortcut icon' type='../image/vnd.microsoft.icon' href='./favicon.ico' />
+        <link rel='shortcut icon' type='../image/vnd.microsoft.icon' href='../favicon.ico' />
 
     </head>
 
@@ -80,7 +80,7 @@
 				                        	<textarea name="form-about-yourself" placeholder="About yourself..." 
 				                        				class="form-about-yourself form-control" id="form-about-yourself"></textarea>
 				                        </div>
-				                        <button type="submit" class="btn">Sign me up!</button>
+				                        <button type="submit" class="btn" id='signup-btn' data-loading-text="Signing you up!">Sign me up!</button>
 				                    </form>
 			                    </div>
                         	</div>
@@ -106,6 +106,8 @@
         		</div>
         	</div>
         </footer>
+        
+       <img src='../images/482.gif' id='signup-preloader-img' class='img-circle img-thumbnail' />
 
         <!-- Javascript -->
         <script src="../js/jquery.js"></script>

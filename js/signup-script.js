@@ -14,10 +14,12 @@ jQuery(document).ready(function() {
     });
     
     $('.registration-form').on('submit', function(e) {
+    	e.preventDefault();
+    	$('#signup-btn').button('loading');
+    	$('body').css('cursor','wait');
     	var signupObject = {};
     	$(this).find('input[type="text"], textarea').each(function(){
     		if( $(this).val() == "" ) {
-    			e.preventDefault();
     			$(this).addClass('input-error');
     			return;
     		}
@@ -26,12 +28,13 @@ jQuery(document).ready(function() {
     			signupObject[$(this).attr('id')] = $(this).val();
     		}
     	});
-    	
+    	$('#signup-preloader-img').css('display','block');
 		$.ajax({
 			method: "POST",
-			url: "./bin/sign-up.php",
+			url: "../bin/parser.php",
 			dataType: 'text',
 			data:{
+				param: '3',
 				firstName : signupObject['form-first-name'],
 				lastName : signupObject['form-last-name'],
 				email : signupObject['form-email'],
@@ -48,6 +51,9 @@ jQuery(document).ready(function() {
 
 		})
 		.always(function(jqXHR, textStatus, errorThrown){
+			$('#signup-btn').button('reset');
+			$('body').css('cursor','default');
+			$('#signup-preloader-img').css('display','none');
 		});	
     	
     });
