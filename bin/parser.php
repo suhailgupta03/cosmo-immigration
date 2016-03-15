@@ -20,10 +20,10 @@ switch($param) {
 		$insertArray = array(
 			'Table' => 'queries_received',
 			'Fields' => array(
-					'query' => $message,
-					'email' => $emailAddress,
+					'query_regarding' => $message,
+					'email_user' => $emailAddress,
 					'phone' => $phoneNumber,
-					'name' => $fullName
+					'full_name' => $fullName
 			)
 		);
 		$iresult = DB_Insert($insertArray);
@@ -44,9 +44,9 @@ switch($param) {
 		$insertArray = array(
 				'Table' => 'queries_received',
 				'Fields' => array(
-						'query' => $queryRegarding,
+						'query_regarding' => $queryRegarding,
 						'phone' => $phoneNumber,
-						'name' => $fullName
+						'full_name' => $fullName
 				)
 		);
 		$iresult = DB_Insert($insertArray);
