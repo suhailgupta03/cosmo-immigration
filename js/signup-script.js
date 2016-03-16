@@ -44,8 +44,13 @@ jQuery(document).ready(function() {
 		})
 		.done(function(data, textStatus, jqXHR ){
 			if(data == 'success'){
-				
-			}
+                $('.alert.alert-success').css('display','block');
+				setTimeout(function(){ 
+                   window.location = '../index.php'; 
+                }, 3000);
+			}else {
+                 window.location = '../index.php'; 
+            }
 		})
 		.fail(function(jqXHR, textStatus, errorThrown){
 

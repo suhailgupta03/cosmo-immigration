@@ -82,6 +82,10 @@
 				                        </div>
 				                        <button type="submit" class="btn" id='signup-btn' data-loading-text="Signing you up!">Sign me up!</button>
 				                    </form>
+                                    <div class="alert alert-success alert-dismissible text-center" role="alert">
+                                      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                      <strong>Yep!</strong> You are registered with us.
+                                   </div>
 			                    </div>
                         	</div>
                         	
