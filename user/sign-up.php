@@ -61,7 +61,7 @@
 				                    <form role="form" action="" method="post" class="registration-form">
 				                    	<div class="form-group">
 				                    		<label class="sr-only" for="form-first-name">First name</label>
-				                        	<input type="text" name="form-first-name" placeholder="First name..." class="form-first-name form-control" id="form-first-name">
+				                        	<input type="text" name="form-first-name" placeholder="First name..." class="form-first-name form-control req-field" id="form-first-name">
 				                        </div>
 				                        <div class="form-group">
 				                        	<label class="sr-only" for="form-last-name">Last name</label>
@@ -73,7 +73,7 @@
 				                        </div>
 				                         <div class="form-group">
 				                        	<label class="sr-only" for="form-mobile">Email</label>
-				                        	<input type="text" name="form-mobile" placeholder="Mobile..." class="form-email form-control" id="form-mobile">
+				                        	<input type="text" name="form-mobile" placeholder="Mobile..." class="form-email form-control req-field" id="form-mobile">
 				                        </div>
 				                        <div class="form-group">
 				                        	<label class="sr-only" for="form-about-yourself">About yourself</label>

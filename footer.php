@@ -16,6 +16,7 @@
 			          <li><a href="#">Photo Gallery</a></li>
 			          <li><a href="#">Video Gallery</a></li>
 			          <li><a href="#">Jobs @ CIMM</a></li>
+			          <li><a href="./email.html" target="_blank">Employee Login</a></li>
 			        </ul>
 			      </div>
 			      <div class="col-md-3 col-sm-3 col-xs-6">
