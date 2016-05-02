@@ -5,7 +5,7 @@
 var separator = ' | ';
 
 /** Page Titles */
-var siteName = 'Cosmo Immigration | Immigration Consultants In Mohali | Study Abroad | Study Overseas Consultants | Global Education Consultants Abroad UK, USA, Australia, Canada, Germany, France, NZ';
+var siteName = 'Cosmo Immigration | Immigration Consultants In Mohali | IELTS Preparation | Study Abroad | Study Overseas Consultants | Global Education Consultants Abroad UK, USA, Australia, Canada, Germany, France, NZ';
 var homeTitle = siteName + separator + 'Home';
 var aboutTitle = siteName + separator + 'About Us';
 var servicesTitle = siteName + separator + 'Our Services';

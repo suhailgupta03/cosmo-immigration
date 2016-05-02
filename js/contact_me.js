@@ -13,6 +13,7 @@ $(function() {
         submitSuccess: function($form, event) {
             event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
+            var userType = $("select#user-type").val();
             var name = $("input#name").val();
             var phone = $("input#phone").val();
             var email = $("input#email").val();
@@ -27,6 +28,7 @@ $(function() {
                 type: "POST",
                 data: {
                 	param: '1',
+                    userType : userType,
                     fullName: name,
                     phoneNumber: phone,
                     emailAddress: email,
@@ -67,6 +69,10 @@ $(function() {
         e.preventDefault();
         $(this).tab("show");
     });
+    
+    if(window.location.hash == '#agent') {
+        $('#user-type').val('Agent');
+    }
 });
 
 

@@ -7,10 +7,12 @@ $param = $_POST['param'];
 
 switch($param) {
 	case '1':
+        $userType = $_POST['userType'];
 		$fullName = $_POST['fullName'];
 		$phoneNumber = $_POST['phoneNumber'];
 		$emailAddress = $_POST['emailAddress'];
-		$message = $_POST['message'];
+        $message = "User Type : '{$userType}' <br />";
+		$message .= $_POST['message'];
 		$mail = new CIMail();
 		$mail->setPhoneNumber($phoneNumber);
 		$mail->setEmailAddress($emailAddress);
@@ -23,7 +25,7 @@ switch($param) {
 					'query_regarding' => $message,
 					'email_user' => $emailAddress,
 					'phone' => $phoneNumber,
-					'full_name' => $fullName
+					'full_name' => $fullName 
 			)
 		);
 		$iresult = DB_Insert($insertArray);

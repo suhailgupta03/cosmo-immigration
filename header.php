@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, max-scale=1">
     <meta name="theme-color" content="#004B8F">
-    <meta name="keywords" content="ielts preparation mohali, immigration consultants mohali chandigarh, study abroad, study overseas, study overseas consultants, study abroad consultants, overseas education consultants, global education services, global education consultants, higher education consultants, best education consultants in India, Top education consultants in India, Best overseas education consultants in India, career counselling services, university specific information" />
+    <meta name="keywords" content="ielts preparation mohali, immigration consultants mohali chandigarh, study abroad, study overseas, study overseas consultants, study abroad consultants, overseas education consultants, global education services, global education consultants, higher education consultants, best education consultants in India, Top education consultants in India, Best overseas education consultants in India, career counselling services, university specific information. Become our agent, refer students and earn big." />
     <meta name="description" content="Student immigration consultants in mohali, punjab. Preparation for IELTS. Study abroad through Cosmo Immigration and overseas education in UK, USA, Australia, Germany, France, Italy, Switzerland, Singapore, Malaysia and Canada boost up your future prospects.">
    	<meta name="robots" content="index, follow" />
     <meta name="author" content="suhail">
@@ -103,7 +103,11 @@
                             </li>
                             <li>
                                 <a href="faq.php">FAQ</a>
-                            </li>                            
+                            </li>   
+                            <li class="divider"></li>
+                            <li>
+                                <a href="contact-us.php#agent">Be Our Agent</a>
+                            </li>
                         </ul>
                     </li>
                 </ul>

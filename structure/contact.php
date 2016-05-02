@@ -60,6 +60,16 @@
                 <h3>Send us a Message</h3>
                 <form name="sentMessage" id="contactForm" novalidate>
                     <div class="control-group form-group">
+                         <div class="controls">
+                            <label>User Type</label>
+                            <select class="form-control" id="user-type">
+                                <option selected="selected">Student</option>
+                                <option>Agent</option>
+                                <option>Other</option>
+                             </select>
+                        </div>
+                    </div>
+                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Full Name:</label>
                             <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
