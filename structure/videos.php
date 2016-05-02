@@ -17,7 +17,7 @@
         
         <!-- Video Content -->
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-xs-6">
                  <div class="video-caption">
                         <span class="video-text">Easy way to Canada</span>
                  </div>
@@ -28,4 +28,72 @@
                     </div>
                 </div>
             </div>
+            
+            <div class="col-md-4 col-xs-6">
+                 <div class="video-caption">
+                        <span class="video-text">IELTS Reading Tips</span>
+                 </div>
+                <div class="embedded-video">
+                    <div class="embed-responsive embed-responsive-16by9 video-frame">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bbDliT5EN-w" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-xs-6">
+                 <div class="video-caption">
+                        <span class="video-text">IELTS Listening Tips</span>
+                 </div>
+                <div class="embedded-video">
+                    <div class="embed-responsive embed-responsive-16by9 video-frame">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/OualsHB1FqE" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-xs-6">
+                 <div class="video-caption">
+                        <span class="video-text">IELTS Writing Tips</span>
+                 </div>
+                <div class="embedded-video">
+                    <div class="embed-responsive embed-responsive-16by9 video-frame">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PzjXIOvWVt0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            
+             <div class="col-md-4 col-xs-6">
+                 <div class="video-caption">
+                        <span class="video-text">Improve your English</span>
+                 </div>
+                <div class="embedded-video">
+                    <div class="embed-responsive embed-responsive-16by9 video-frame">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/I_3qJobgmFQ" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            
+             <div class="col-md-4 col-xs-6">
+                 <div class="video-caption">
+                        <span class="video-text">The 1001 Ways</span>
+                 </div>
+                <div class="embedded-video">
+                    <div class="embed-responsive embed-responsive-16by9 video-frame">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/F-G7N_xdPZU" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>            
         </div>
+        <br />
+        <div class="row">
+            <div class="col-md-12">
+                <div id="disqus_thread"></div>
+            </div>
+        </div>
+        
+        <script src="js/disqus.js"></script>
+        <script type="text/javascript">
+           $(function(){
+               var nodeAppended = disqus.loadEmbed();
+           });
+        </script>

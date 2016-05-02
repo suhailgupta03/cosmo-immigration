@@ -19,6 +19,7 @@
     <link href="css/animate.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="css/jssocials.css" />
     <link rel="stylesheet" type="text/css" href="css/jssocials-theme-flat.css" />
+    <script src="js/jquery.js"></script>
     <script src="js/google_analytics.js" async></script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
