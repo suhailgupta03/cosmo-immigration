@@ -7,14 +7,14 @@
 </div>
         
         <footer class="container-fluid text-center">
-	        <div id='share' class='text-center'></div>
+	        <div id='share'></div>
 	        <div class="row">
 			    <div class="col-md-12">
-			      <div class="col-md-3 col-md-offset-0 col-sm-3 col-sm-offset-3 col-xs-5 col-xs-offset-1">
+			      <div class="col-md-3 col-md-offset-0 col-sm-3 col-sm-offset-3 col-xs-6">
 			        <ul class="nav nav-pills nav-stacked">
 			          <li><a href="./about-us.php">About us</a></li>
 			          <li><a href="#">Photo Gallery</a></li>
-			          <li><a href="#">Video Gallery</a></li>
+			          <li><a href="./our-videos.php">Video Gallery</a></li>
 			          <li><a href="#">Jobs @ CIMM</a></li>
 			          <li><a href="./email.html" target="_blank">Employee Login</a></li>
 			        </ul>
@@ -28,7 +28,7 @@
 			          <li><a href="http://www.topuniversities.com/where-to-study/oceania/new-zealand/guide">Study In New Zealand</a></li>
 			        </ul>
 			      </div>
-			      <div class="col-md-3 col-md-offset-0 col-sm-3 col-sm-offset-3 col-xs-5 col-xs-offset-1">
+			      <div class="col-md-3 col-md-offset-0 col-sm-3 col-sm-offset-3 col-xs-6">
 			        <ul class="nav nav-pills nav-stacked">
 			          <li><a href="#">Write a Query</a></li>
 			          <li><a href="#" data-toggle="modal" data-target="#newsletter-modal">Register for Newsletters</a></li>   

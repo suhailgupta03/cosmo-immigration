@@ -678,3 +678,20 @@ div#mini-carousel-sm {
 .right-carousel-img {
 	width: 100%;
 }
+
+.embedded-video {
+    -webkit-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+}
+
+.video-caption {
+    padding: 10px 3px;
+    background-color: transparent;
+    font-size:1.1rem;
+    text-align: left;
+}
+
+.video-text {
+    letter-spacing: 0.1px;
+}
