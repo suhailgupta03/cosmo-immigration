@@ -690,8 +690,10 @@ div#mini-carousel-sm {
     background-color: transparent;
     font-size:1.1rem;
     text-align: left;
+    padding: 15px 0px 5px 0px;
 }
 
 .video-text {
     letter-spacing: 0.1px;
+    color: #00b0ff;
 }

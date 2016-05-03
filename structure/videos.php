@@ -1,4 +1,4 @@
-	<!-- Page Content -->
+<!-- Page Content -->
     <div class="container"> <!-- Tag closed in footer.php -->
     
         <!-- Page Heading/Breadcrumbs -->
@@ -19,7 +19,7 @@
         <div class="row">
             <div class="col-md-4 col-xs-6">
                  <div class="video-caption">
-                        <span class="video-text">Easy way to Canada</span>
+                        <span class="video-text">Easy Way To Canada</span>
                  </div>
                 
                 <div class="embedded-video">
@@ -42,17 +42,6 @@
             
             <div class="col-md-4 col-xs-6">
                  <div class="video-caption">
-                        <span class="video-text">IELTS Listening Tips</span>
-                 </div>
-                <div class="embedded-video">
-                    <div class="embed-responsive embed-responsive-16by9 video-frame">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/OualsHB1FqE" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-md-4 col-xs-6">
-                 <div class="video-caption">
                         <span class="video-text">IELTS Writing Tips</span>
                  </div>
                 <div class="embedded-video">
@@ -62,9 +51,20 @@
                 </div>
             </div>
             
+            <div class="col-md-4 col-xs-6">
+                 <div class="video-caption">
+                        <span class="video-text">IELTS Listening Tips</span>
+                 </div>
+                <div class="embedded-video">
+                    <div class="embed-responsive embed-responsive-16by9 video-frame">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/OualsHB1FqE" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            
              <div class="col-md-4 col-xs-6">
                  <div class="video-caption">
-                        <span class="video-text">Improve your English</span>
+                        <span class="video-text">Improve Your English</span>
                  </div>
                 <div class="embedded-video">
                     <div class="embed-responsive embed-responsive-16by9 video-frame">
