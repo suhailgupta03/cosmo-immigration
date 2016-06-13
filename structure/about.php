@@ -176,27 +176,27 @@
         <!-- /.row -->
 
         <!-- Our Customers -->
-<!--         <div class="row"> -->
-<!--             <div class="col-lg-12"> -->
-<!--                 <h2 class="page-header">Our Customers</h2> -->
-<!--             </div> -->
-<!--             <div class="col-md-2 col-sm-4 col-xs-6"> -->
-<!--                 <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt=""> -->
-<!--             </div> -->
-<!--             <div class="col-md-2 col-sm-4 col-xs-6"> -->
-<!--                 <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt=""> -->
-<!--             </div> -->
-<!--             <div class="col-md-2 col-sm-4 col-xs-6"> -->
-<!--                 <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt=""> -->
-<!--             </div> -->
-<!--             <div class="col-md-2 col-sm-4 col-xs-6"> -->
-<!--                 <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt=""> -->
-<!--             </div> -->
-<!--             <div class="col-md-2 col-sm-4 col-xs-6"> -->
-<!--                 <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt=""> -->
-<!--             </div> -->
-<!--             <div class="col-md-2 col-sm-4 col-xs-6"> -->
-<!--                 <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt=""> -->
-<!--             </div> -->
-<!--         </div> -->
+        <div class="row"> 
+             <div class="col-lg-12">
+                 <h2 class="page-header">Glint</h2> 
+             </div> 
+             <div class="col-md-2 col-sm-4 col-xs-6"> 
+                 <img class="img-responsive customer-img thumbnail " src="./images/stu_1.jpg" alt="students_at_cosmo_immigration"> 
+             </div> 
+             <div class="col-md-2 col-sm-4 col-xs-6"> 
+                 <img class="img-responsive customer-img thumbnail" src="./images/IELTS.jpg" alt="prepare_for_ielts"> 
+             </div> 
+             <div class="col-md-2 col-sm-4 col-xs-6"> 
+                 <img class="img-responsive customer-img thumbnail" src="./images/studyCanada-500x300.jpg" alt="prepare_to_study_in_canada"> 
+             </div> 
+             <div class="col-md-2 col-sm-4 col-xs-6"> 
+                 <img class="img-responsive customer-img thumbnail" src="./images/u-s-immigration.png" alt="study_in_usa"> 
+             </div> 
+             <div class="col-md-2 col-sm-4 col-xs-6"> 
+                 <img class="img-responsive customer-img thumbnail" src="./images/study-in-NewZealand.jpg" alt="study_in_newzealand"> 
+             </div> 
+             <div class="col-md-2 col-sm-4 col-xs-6"> 
+                 <img class="img-responsive customer-img thumbnail" src="./images/f4.jpg" alt="study_books_from_cosmo_immigration"> 
+             </div> 
+         </div> 
         <!-- /.row -->
